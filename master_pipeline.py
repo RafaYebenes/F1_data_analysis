@@ -1,23 +1,31 @@
+from datetime import datetime
 import psycopg2
 import redis
 from kafka import KafkaConsumer
 from kafka.errors import KafkaError
 import json
-
+from sql.queries import (
+    query_motion,
+    query_session,
+    query_lap_data,
+    query_event,
+    query_car_telemetry
+)
 
 # Configuración de Redis
 redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
 
 # Configuración de PostgreSQL
-postgres_conn = psycopg2.connect(
+conn = psycopg2.connect(
     dbname='f1_database',
     user='user',
     password='password',
     host='localhost',
     port='5432'
 )
-postgres_conn.autocommit = True
+conn.autocommit = True
 
+cursor = conn.cursor()
 # Configuración de Kafka
 KAFKA_TOPIC = 'telemetry'
 KAFKA_SERVER = 'localhost:9092'
@@ -45,20 +53,104 @@ def save_to_redis(data):
 
 
 def save_to_postgres(data):
-    try:
-        with postgres_conn.cursor() as cursor:
-            query = '''
-                INSERT INTO telemetry_data (speed_kmh, rpm, gear, fuel_consumption, engine_temperature, position_x, position_y, position_z)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-            '''
-            cursor.execute(query, (
-                data['speed_kmh'], data['rpm'], data['gear'],
-                data['fuel_consumption'], data['engine_temperature'],
-                data['position'][0], data['position'][1], data['position'][2]
-            ))
-        print("✅ Datos guardados correctamente en PostgreSQL")
-    except Exception as e:
-        print(f"❌ Error al guardar datos en PostgreSQL: {e}")
+    timestamp = data.get('timestamp', datetime.utcnow().isoformat())
+    session_uid = data.get('session_uid')
+    car_index = data.get('car_index')
+    session_type = data.get('session_type')
+
+    # Filtramos por sesiones Time Trial únicamente
+    if session_type != 3:
+        return
+
+    if 'motion' in data:
+        motion = data['motion']
+        cursor.execute(query_motion, (
+            timestamp, session_uid, car_index,
+            *motion['worldPosition'],
+            *motion['velocity'],
+            *motion['gForce'],
+            *motion['rotation']
+        ))
+
+    elif 'session' in data:
+        s = data['session']
+        cursor.execute(query_session, (
+            timestamp, session_uid, car_index,
+            s['weather'], s['trackTemperature'], s['airTemperature'], s['totalLaps'], s['trackLength'],
+            s['sessionType'], s['trackId'], s['formula'], s['sessionTimeLeft'], s['sessionDuration'],
+            s['pitSpeedLimit'], s['gamePaused'], s['isSpectating'], s['spectatorCarIndex'],
+            s['sliProNativeSupport'], s['numMarshalZones'], s['safetyCarStatus'], s['networkGame']
+        ))
+
+    elif 'lapData' in data:
+        l = data['lapData']
+        cursor.execute(query_lap_data, (
+            timestamp, session_uid, car_index,
+            l['lastLapTime'], l['currentLapTime'], l['sector1Time'], l['sector2Time'],
+            l['lapDistance'], l['totalDistance'], l['safetyCarDelta'],
+            l['carPosition'], l['currentLapNum']
+        ))
+
+    elif 'event' in data:
+        e = data['event']
+        cursor.execute(query_event, (timestamp, session_uid, car_index, e['eventStringCode']))
+
+    elif 'carTelemetry' in data:
+        t = data['carTelemetry']
+        cursor.execute(query_car_telemetry, (
+            timestamp, session_uid, car_index,
+            t['speed'], t['throttle'], t['steer'], t['brake'], t['clutch'], t['gear'],
+            t['engineRPM'], t['drs'], t['revLightsPercent'],
+            t['brakesTemperature'], t['tyresSurfaceTemperature'], t['tyresInnerTemperature'],
+            t['engineTemperature'], t['tyresPressure']
+        ))
+    
+    timestamp = data.get('timestamp', datetime.utcnow().isoformat())
+
+    if 'motion' in data:
+        motion = data['motion']
+        cursor.execute(query_motion, (
+            timestamp,
+            *motion['worldPosition'],
+            *motion['velocity'],
+            *motion['gForce'],
+            *motion['rotation']
+        ))
+
+    elif 'session' in data:
+        s = data['session']
+        cursor.execute(query_session, (
+            timestamp,
+            s['weather'], s['trackTemperature'], s['airTemperature'], s['totalLaps'], s['trackLength'],
+            s['sessionType'], s['trackId'], s['formula'], s['sessionTimeLeft'], s['sessionDuration'],
+            s['pitSpeedLimit'], s['gamePaused'], s['isSpectating'], s['spectatorCarIndex'],
+            s['sliProNativeSupport'], s['numMarshalZones'], s['safetyCarStatus'], s['networkGame']
+        ))
+
+    elif 'lapData' in data:
+        l = data['lapData']
+        cursor.execute(query_lap_data, (
+            timestamp,
+            l['lastLapTime'], l['currentLapTime'], l['sector1Time'], l['sector2Time'],
+            l['lapDistance'], l['totalDistance'], l['safetyCarDelta'],
+            l['carPosition'], l['currentLapNum']
+        ))
+
+    elif 'event' in data:
+        e = data['event']
+        cursor.execute(query_event, (timestamp, e['eventStringCode']))
+
+    elif 'carTelemetry' in data:
+        t = data['carTelemetry']
+        cursor.execute(query_car_telemetry, (
+            timestamp,
+            t['speed'], t['throttle'], t['steer'], t['brake'], t['clutch'], t['gear'],
+            t['engineRPM'], t['drs'], t['revLightsPercent'],
+            t['brakesTemperature'], t['tyresSurfaceTemperature'], t['tyresInnerTemperature'],
+            t['engineTemperature'], t['tyresPressure']
+        ))
+
+    conn.commit()
 
 
 def main():

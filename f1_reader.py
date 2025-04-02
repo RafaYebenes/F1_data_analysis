@@ -1,13 +1,13 @@
-import socket
 import ctypes
+import socket
+import struct
 import json
 from datetime import datetime
+from kafka import KafkaProducer
 
 class PacketHeader(ctypes.LittleEndianStructure):
-    _pack_ = 1
     _fields_ = [
         ("packetFormat", ctypes.c_uint16),
-        ("gameYear", ctypes.c_uint8),
         ("gameMajorVersion", ctypes.c_uint8),
         ("gameMinorVersion", ctypes.c_uint8),
         ("packetVersion", ctypes.c_uint8),
@@ -20,59 +20,41 @@ class PacketHeader(ctypes.LittleEndianStructure):
         ("secondaryPlayerCarIndex", ctypes.c_uint8)
     ]
 
-class F123FullParser:
-    def __init__(self, ip='0.0.0.0', port=20778):
+class F1Reader:
+    def __init__(self, ip='0.0.0.0', port=20777):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.bind((ip, port))
-        self.sock.settimeout(0.1)
+        self.producer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=lambda m: json.dumps(m).encode('utf-8'))
 
-    def read_packet(self):
-        try:
+    def start(self):
+        print("🎮 Esperando paquetes UDP de F1 23...")
+        while True:
             data, _ = self.sock.recvfrom(2048)
-            return self.route_packet(data)
-        except socket.timeout:
-            return None
-        except Exception as e:
-            print(f"❌ Error leyendo paquete: {e}")
-            return None
-
-    def route_packet(self, data):
-        if len(data) < ctypes.sizeof(PacketHeader):
-            print(f"❗ Paquete demasiado pequeño: {len(data)} bytes")
-            return None
-
-        try:
-            header = PacketHeader.from_buffer_copy(data)
+            header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
             packet_id = header.packetId
-            print(f"📦 packet_id detectado: {packet_id} (tam: {len(data)} bytes)")
-        except Exception as e:
-            print("❌ Error leyendo el header con ctypes:", e)
-            return None
 
-        packet_map = {
-            0: self.parse_motion,
-            1: self.parse_session,
-            2: self.parse_lap_data,
-            3: self.parse_event,
-            4: self.parse_participants,
-            5: self.parse_car_setups,
-            6: self.parse_car_telemetry,
-            7: self.parse_car_status,
-            8: self.parse_final_classification
-        }
+            parsed_data = self.route_packet(packet_id, data)
+            if parsed_data:
+                parsed_data['timestamp'] = datetime.utcnow().isoformat()
+                parsed_data['packet_id'] = packet_id
+                parsed_data['session_uid'] = str(header.sessionUID)
+                parsed_data['car_index'] = header.playerCarIndex
+                parsed_data['session_type'] = parsed_data.get('session', {}).get('sessionType', None)
+                self.producer.send('f1_telemetry', parsed_data)
+                print(f"📦 packet_id detectado: {packet_id}")
 
-        parser = packet_map.get(packet_id)
-        if parser:
-            try:
-                parsed = parser(data)
-            except Exception as e:
-                return {'packet_id': packet_id, 'error': str(e), 'timestamp': datetime.now().isoformat()}
-
-            parsed['timestamp'] = datetime.now().isoformat()
-            parsed['packet_id'] = packet_id
-            return parsed
-        else:
-            return {'packet_id': packet_id, 'raw_data': data.hex(), 'timestamp': datetime.now().isoformat()}
+    def route_packet(self, packet_id, data):
+        if packet_id == 0:
+            return self.parse_motion(data)
+        elif packet_id == 1:
+            return self.parse_session(data)
+        elif packet_id == 2:
+            return self.parse_lap_data(data)
+        elif packet_id == 3:
+            return self.parse_event(data)
+        elif packet_id == 6:
+            return self.parse_car_telemetry(data)
+        return None
 
     def parse_motion(self, data):
         class MotionData(ctypes.LittleEndianStructure):
@@ -203,12 +185,6 @@ class F123FullParser:
 
         return {'event': {'eventStringCode': event_code}}
 
-    def parse_participants(self, data):
-        return {'participants': {'status': 'ok'}}
-
-    def parse_car_setups(self, data):
-        return {'carSetups': {'status': 'ok'}}
-
     def parse_car_telemetry(self, data):
         class TelemetryData(ctypes.LittleEndianStructure):
             _pack_ = 1
@@ -251,15 +227,7 @@ class F123FullParser:
             }
         }
 
-    def parse_car_status(self, data):
-        return {'carStatus': {'status': 'ok'}}
-
-    def parse_final_classification(self, data):
-        return {'finalClassification': {'status': 'ok'}}
 
 if __name__ == '__main__':
-    parser = F123FullParser()
-    while True:
-        packet = parser.read_packet()
-        if packet:
-            print(json.dumps(packet, indent=2))
+    reader = F1Reader()
+    reader.start()
