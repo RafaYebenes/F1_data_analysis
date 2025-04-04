@@ -1,34 +1,29 @@
 import ctypes
 import socket
 from datetime import datetime
+from resources.utils import *
 
-class PacketHeader(ctypes.LittleEndianStructure):
-    _fields_ = [
-        ("packetFormat", ctypes.c_uint16),
-        ("gameMajorVersion", ctypes.c_uint8),
-        ("gameMinorVersion", ctypes.c_uint8),
-        ("packetVersion", ctypes.c_uint8),
-        ("packetId", ctypes.c_uint8),
-        ("sessionUID", ctypes.c_uint64),
-        ("sessionTime", ctypes.c_float),
-        ("frameIdentifier", ctypes.c_uint32),
-        ("overallFrameIdentifier", ctypes.c_uint32),
-        ("playerCarIndex", ctypes.c_uint8),
-        ("secondaryPlayerCarIndex", ctypes.c_uint8)
-    ]
 
 class F1Reader:
     def __init__(self, ip='0.0.0.0', port=20778):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.bind((ip, port))
 
+    
     def start(self):
         print("🎮 Esperando paquetes UDP de F1 23...")
+
         while True:
-            data, _ = self.sock.recvfrom(4096)
+
+            data, _ = self.sock.recvfrom(65535)
             header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
             packet_id = header.packetId
-
+            
+            print(f"Paquete recibido con ID: {packet_id}\n")
+            createFile(f"Paquete recibido con ID: {packet_id}\n", "header_struct")
+            header_dict = header_to_dict(header)
+            createFile(header_dict, "header")
+            
             parsed_data = self.route_packet(packet_id, data)
             parsed_data = parsed_data or {}
 
@@ -36,8 +31,11 @@ class F1Reader:
             parsed_data['timestamp'] = datetime.utcnow().isoformat()
             parsed_data['session_uid'] = str(header.sessionUID)
             parsed_data['car_index'] = header.playerCarIndex
+            createFile(parsed_data, "parsedData")
 
             yield parsed_data
+    
+    
 
     def route_packet(self, packet_id, data):
         if packet_id == 0:
@@ -55,29 +53,7 @@ class F1Reader:
         return {'error': f'packet_id {packet_id} no procesado'}
 
     def parse_motion(self, data):
-        class MotionData(ctypes.LittleEndianStructure):
-            _pack_ = 1
-            _fields_ = [
-                ("worldPositionX", ctypes.c_float),
-                ("worldPositionY", ctypes.c_float),
-                ("worldPositionZ", ctypes.c_float),
-                ("worldVelocityX", ctypes.c_float),
-                ("worldVelocityY", ctypes.c_float),
-                ("worldVelocityZ", ctypes.c_float),
-                ("worldForwardDirX", ctypes.c_int16),
-                ("worldForwardDirY", ctypes.c_int16),
-                ("worldForwardDirZ", ctypes.c_int16),
-                ("worldRightDirX", ctypes.c_int16),
-                ("worldRightDirY", ctypes.c_int16),
-                ("worldRightDirZ", ctypes.c_int16),
-                ("gForceLateral", ctypes.c_float),
-                ("gForceLongitudinal", ctypes.c_float),
-                ("gForceVertical", ctypes.c_float),
-                ("yaw", ctypes.c_float),
-                ("pitch", ctypes.c_float),
-                ("roll", ctypes.c_float)
-            ]
-
+    
         offset = ctypes.sizeof(PacketHeader)
         motion_bytes = data[offset:offset + ctypes.sizeof(MotionData)]
         if len(motion_bytes) < ctypes.sizeof(MotionData):
@@ -95,29 +71,7 @@ class F1Reader:
         }
 
     def parse_session(self, data):
-        class SessionData(ctypes.LittleEndianStructure):
-            _pack_ = 1
-            _fields_ = [
-                ("weather", ctypes.c_uint8),
-                ("trackTemperature", ctypes.c_int8),
-                ("airTemperature", ctypes.c_int8),
-                ("totalLaps", ctypes.c_uint8),
-                ("trackLength", ctypes.c_uint16),
-                ("sessionType", ctypes.c_uint8),
-                ("trackId", ctypes.c_int8),
-                ("formula", ctypes.c_uint8),
-                ("sessionTimeLeft", ctypes.c_uint16),
-                ("sessionDuration", ctypes.c_uint16),
-                ("pitSpeedLimit", ctypes.c_uint8),
-                ("gamePaused", ctypes.c_uint8),
-                ("isSpectating", ctypes.c_uint8),
-                ("spectatorCarIndex", ctypes.c_uint8),
-                ("sliProNativeSupport", ctypes.c_uint8),
-                ("numMarshalZones", ctypes.c_uint8),
-                ("safetyCarStatus", ctypes.c_uint8),
-                ("networkGame", ctypes.c_uint8)
-            ]
-
+        
         offset = ctypes.sizeof(PacketHeader)
         session_bytes = data[offset:offset + ctypes.sizeof(SessionData)]
         if len(session_bytes) < ctypes.sizeof(SessionData):
@@ -149,20 +103,7 @@ class F1Reader:
         }
 
     def parse_lap_data(self, data):
-        class LapData(ctypes.LittleEndianStructure):
-            _pack_ = 1
-            _fields_ = [
-                ("lastLapTime", ctypes.c_float),
-                ("currentLapTime", ctypes.c_float),
-                ("sector1Time", ctypes.c_uint16),
-                ("sector2Time", ctypes.c_uint16),
-                ("lapDistance", ctypes.c_float),
-                ("totalDistance", ctypes.c_float),
-                ("safetyCarDelta", ctypes.c_float),
-                ("carPosition", ctypes.c_uint8),
-                ("currentLapNum", ctypes.c_uint8)
-            ]
-
+        
         offset = ctypes.sizeof(PacketHeader)
         lap_bytes = data[offset:offset + ctypes.sizeof(LapData)]
         if len(lap_bytes) < ctypes.sizeof(LapData):
@@ -196,25 +137,7 @@ class F1Reader:
         return {'event': {'eventStringCode': event_code}}
 
     def parse_car_telemetry(self, data):
-        class TelemetryData(ctypes.LittleEndianStructure):
-            _pack_ = 1
-            _fields_ = [
-                ("speed", ctypes.c_uint16),
-                ("throttle", ctypes.c_float),
-                ("steer", ctypes.c_float),
-                ("brake", ctypes.c_float),
-                ("clutch", ctypes.c_uint8),
-                ("gear", ctypes.c_int8),
-                ("engineRPM", ctypes.c_uint16),
-                ("drs", ctypes.c_uint8),
-                ("revLightsPercent", ctypes.c_uint8),
-                ("brakesTemperature", ctypes.c_uint16 * 4),
-                ("tyresSurfaceTemperature", ctypes.c_uint8 * 4),
-                ("tyresInnerTemperature", ctypes.c_uint8 * 4),
-                ("engineTemperature", ctypes.c_uint16),
-                ("tyresPressure", ctypes.c_float * 4)
-            ]
-
+        
         offset = ctypes.sizeof(PacketHeader)
         telemetry_bytes = data[offset:offset + ctypes.sizeof(TelemetryData)]
         if len(telemetry_bytes) < ctypes.sizeof(TelemetryData):
