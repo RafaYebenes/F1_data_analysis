@@ -15,7 +15,8 @@ class F1Reader:
 
         while True:
 
-            data, _ = self.sock.recvfrom(65535)
+            data, address = self.sock.recvfrom(65535)
+            
             header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
             packet_id = header.packetId
             

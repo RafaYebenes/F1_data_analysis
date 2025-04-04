@@ -46,6 +46,7 @@ def save_to_redis(data):
         for key, value in data.items():
             if isinstance(value, list):
                 value = json.dumps(value)  # Convertimos listas a string JSON
+            print("values", value)
             redis_client.set(key, value)
         print("✅ Datos guardados correctamente en Redis")
     except Exception as e:
@@ -53,14 +54,12 @@ def save_to_redis(data):
 
 
 def save_to_postgres(data):
+
+    print("data recibido", data)
     timestamp = data.get('timestamp', datetime.utcnow().isoformat())
     session_uid = data.get('session_uid')
     car_index = data.get('car_index')
     session_type = data.get('session_type')
-
-    # Filtramos por sesiones Time Trial únicamente
-    if session_type != 3:
-        return
 
     if 'motion' in data:
         motion = data['motion']
@@ -73,6 +72,7 @@ def save_to_postgres(data):
         ))
 
     elif 'session' in data:
+        print("entramos postgre session")
         s = data['session']
         cursor.execute(query_session, (
             timestamp, session_uid, car_index,
@@ -149,7 +149,7 @@ def save_to_postgres(data):
             t['brakesTemperature'], t['tyresSurfaceTemperature'], t['tyresInnerTemperature'],
             t['engineTemperature'], t['tyresPressure']
         ))
-
+    print('insertado con exito')
     conn.commit()
 
 
@@ -158,10 +158,9 @@ def main():
     for message in consumer:
         try:
             data = message.value  # Los datos que llegan de Kafka
-
             # Guardar datos en Redis y PostgreSQL
-            save_to_redis(data)
             save_to_postgres(data)
+            save_to_redis(data)
         except Exception as e:
             print(f"❌ Error al procesar mensaje de Kafka: {e}")
 

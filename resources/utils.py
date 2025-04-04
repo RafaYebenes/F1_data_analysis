@@ -3,18 +3,20 @@ import ctypes
 
 class PacketHeader(ctypes.LittleEndianStructure):
     _fields_ = [
-        ("packetFormat", ctypes.c_uint16),
-        ("gameMajorVersion", ctypes.c_uint8),
-        ("gameMinorVersion", ctypes.c_uint8),
-        ("packetVersion", ctypes.c_uint8),
-        ("packetId", ctypes.c_uint8),
-        ("sessionUID", ctypes.c_uint64),
-        ("sessionTime", ctypes.c_float),
-        ("frameIdentifier", ctypes.c_uint32),
-        ("overallFrameIdentifier", ctypes.c_uint32),
-        ("playerCarIndex", ctypes.c_uint8),
-        ("secondaryPlayerCarIndex", ctypes.c_uint8)
+        ("packetFormat", ctypes.c_uint16),            # uint16
+        ("gameYear", ctypes.c_uint8),                 # uint8 (añadido)
+        ("gameMajorVersion", ctypes.c_uint8),         # uint8
+        ("gameMinorVersion", ctypes.c_uint8),         # uint8
+        ("packetVersion", ctypes.c_uint8),            # uint8
+        ("packetId", ctypes.c_uint8),                 # uint8
+        ("sessionUID", ctypes.c_uint64),              # uint64
+        ("sessionTime", ctypes.c_float),              # float
+        ("frameIdentifier", ctypes.c_uint32),         # uint32
+        ("overallFrameIdentifier", ctypes.c_uint32),  # uint32
+        ("playerCarIndex", ctypes.c_uint8),           # uint8
+        ("secondaryPlayerCarIndex", ctypes.c_uint8)   # uint8
     ]
+
 
 class MotionData(ctypes.LittleEndianStructure):
             _pack_ = 1
