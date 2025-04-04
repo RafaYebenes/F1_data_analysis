@@ -1,9 +1,6 @@
 import ctypes
 import socket
-import struct
-import json
 from datetime import datetime
-from kafka import KafkaProducer
 
 class PacketHeader(ctypes.LittleEndianStructure):
     _fields_ = [
@@ -21,27 +18,26 @@ class PacketHeader(ctypes.LittleEndianStructure):
     ]
 
 class F1Reader:
-    def __init__(self, ip='0.0.0.0', port=20777):
+    def __init__(self, ip='0.0.0.0', port=20778):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.bind((ip, port))
-        self.producer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=lambda m: json.dumps(m).encode('utf-8'))
 
     def start(self):
         print("🎮 Esperando paquetes UDP de F1 23...")
         while True:
-            data, _ = self.sock.recvfrom(2048)
+            data, _ = self.sock.recvfrom(4096)
             header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
             packet_id = header.packetId
 
             parsed_data = self.route_packet(packet_id, data)
-            if parsed_data:
-                parsed_data['timestamp'] = datetime.utcnow().isoformat()
-                parsed_data['packet_id'] = packet_id
-                parsed_data['session_uid'] = str(header.sessionUID)
-                parsed_data['car_index'] = header.playerCarIndex
-                parsed_data['session_type'] = parsed_data.get('session', {}).get('sessionType', None)
-                self.producer.send('f1_telemetry', parsed_data)
-                print(f"📦 packet_id detectado: {packet_id}")
+            parsed_data = parsed_data or {}
+
+            parsed_data['packet_id'] = packet_id
+            parsed_data['timestamp'] = datetime.utcnow().isoformat()
+            parsed_data['session_uid'] = str(header.sessionUID)
+            parsed_data['car_index'] = header.playerCarIndex
+
+            yield parsed_data
 
     def route_packet(self, packet_id, data):
         if packet_id == 0:
@@ -54,7 +50,9 @@ class F1Reader:
             return self.parse_event(data)
         elif packet_id == 6:
             return self.parse_car_telemetry(data)
-        return None
+
+        print(f"⚠️ Paquete con packet_id {packet_id} no procesado.")
+        return {'error': f'packet_id {packet_id} no procesado'}
 
     def parse_motion(self, data):
         class MotionData(ctypes.LittleEndianStructure):
@@ -81,7 +79,11 @@ class F1Reader:
             ]
 
         offset = ctypes.sizeof(PacketHeader)
-        motion_data = MotionData.from_buffer_copy(data[offset:offset + ctypes.sizeof(MotionData)])
+        motion_bytes = data[offset:offset + ctypes.sizeof(MotionData)]
+        if len(motion_bytes) < ctypes.sizeof(MotionData):
+            return {'motion': '', 'error': "Paquete MotionData demasiado corto"}
+
+        motion_data = MotionData.from_buffer_copy(motion_bytes)
 
         return {
             'motion': {
@@ -117,7 +119,11 @@ class F1Reader:
             ]
 
         offset = ctypes.sizeof(PacketHeader)
-        session_data = SessionData.from_buffer_copy(data[offset:offset + ctypes.sizeof(SessionData)])
+        session_bytes = data[offset:offset + ctypes.sizeof(SessionData)]
+        if len(session_bytes) < ctypes.sizeof(SessionData):
+            return {'session': '', 'error': "Paquete session demasiado corto"}
+
+        session_data = SessionData.from_buffer_copy(session_bytes)
 
         return {
             'session': {
@@ -158,7 +164,11 @@ class F1Reader:
             ]
 
         offset = ctypes.sizeof(PacketHeader)
-        lap_data = LapData.from_buffer_copy(data[offset:offset + ctypes.sizeof(LapData)])
+        lap_bytes = data[offset:offset + ctypes.sizeof(LapData)]
+        if len(lap_bytes) < ctypes.sizeof(LapData):
+            return {'lapData': '', 'error': "Paquete lap_data demasiado corto"}
+
+        lap_data = LapData.from_buffer_copy(lap_bytes)
 
         return {
             'lapData': {
@@ -206,7 +216,11 @@ class F1Reader:
             ]
 
         offset = ctypes.sizeof(PacketHeader)
-        telemetry = TelemetryData.from_buffer_copy(data[offset:offset + ctypes.sizeof(TelemetryData)])
+        telemetry_bytes = data[offset:offset + ctypes.sizeof(TelemetryData)]
+        if len(telemetry_bytes) < ctypes.sizeof(TelemetryData):
+            return {'carTelemetry': '', 'error': "Paquete carTelemetry demasiado corto"}
+
+        telemetry = TelemetryData.from_buffer_copy(telemetry_bytes)
 
         return {
             'carTelemetry': {
@@ -227,7 +241,7 @@ class F1Reader:
             }
         }
 
-
 if __name__ == '__main__':
     reader = F1Reader()
-    reader.start()
+    for packet in reader.start():
+        print(packet)

@@ -8,7 +8,7 @@ import socket
 import mmap
 import struct
 from datetime import datetime
-from f1_reader import F123FullParser
+from f1_reader import F1Reader
 
 
 # Configuración del sistema principal
@@ -16,7 +16,7 @@ REDIS_HOST = '192.168.1.181'  # Cambia esto por la IP de tu PC principal
 POSTGRES_HOST = '192.168.1.181'
 KAFKA_SERVER = '192.168.1.181:9092'
 
-f1_parser = F123FullParser()
+f1_parser = F1Reader()
 
 # Configuración de Redis
 redis_client = redis.Redis(host=REDIS_HOST, port=6379, decode_responses=True)
@@ -37,8 +37,6 @@ producer = KafkaProducer(
     bootstrap_servers=[KAFKA_SERVER],
     value_serializer=lambda v: json.dumps(v).encode('utf-8')
 )
-
-
 
 
 # Assetto Corsa - Estructura de Datos
@@ -70,7 +68,6 @@ def read_assetto_corsa_data():
         return None
 
 
-
 def send_to_redis(data):
     try:
         for key, value in data.items():
@@ -79,29 +76,6 @@ def send_to_redis(data):
             redis_client.set(key, value)
     except Exception as e:
         print(f"❌ Error al enviar datos a Redis: {e}")
-
-
-def send_to_postgres(data):
-    try:
-        with postgres_conn.cursor() as cursor:
-            # Insertar datos en la tabla existente
-            query = '''
-                INSERT INTO telemetry_data (timestamp, speed_kmh, rpm, gear, fuel_consumption, engine_temperature, position_x, position_y, position_z)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-            '''
-            cursor.execute(query, (
-                data.get('timestamp'),
-                data.get('speed', 0),
-                data.get('rpm', 0),
-                data.get('gear', 0),
-                data.get('fuel_consumption', 0),
-                data.get('engine_temperature', 0),
-                data.get('position_x', 0),
-                data.get('position_y', 0),
-                data.get('position_z', 0)
-            ))
-    except Exception as e:
-        print(f"❌ Error al enviar datos a PostgreSQL: {e}")
 
 
 def send_to_kafka(data):
@@ -113,18 +87,14 @@ def send_to_kafka(data):
 
 
 def main():
-    while True:
-        
-
-        f1_data = f1_parser.read_packet()
-        if f1_data:
-            print("data to send")
-            print(f1_data)
-            send_to_redis(f1_data)
-            send_to_kafka(f1_data)
+    
+    for f1_data in f1_parser.start():
+        print(f"📦 packet_id={f1_data.get('packet_id')}, contenido:\n{json.dumps(f1_data, indent=2)}")
+        send_to_redis(f1_data)
+        send_to_kafka(f1_data)
 
 
-        time.sleep(0.1)
+    time.sleep(0.1)
 
 
 if __name__ == "__main__":

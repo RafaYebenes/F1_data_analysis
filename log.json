@@ -1,0 +1,759 @@
+Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092fbe56d42dc040000f7
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092fbe56d42dc040000f7
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.516603', 'packet_id': 1, 'session_uid': '18127763314817082414', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0922b196e42dd040000f8
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 114, 'airTemperature': 104, 'totalLaps': 150, 'trackLength': 35903, 'sessionType': 196, 'trackId': 121, 'formula': 63, 'sessionTimeLeft': 3064, 'sessionDuration': 16244, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 114, 'airTemperature': 104, 'totalLaps': 150, 'trackLength': 35903, 'sessionType': 196, 'trackId': 121, 'formula': 63, 'sessionTimeLeft': 3064, 'sessionDuration': 16244, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.566402', 'packet_id': 1, 'session_uid': '3139783754928071726', 'car_index': 255, 'session_type': 196}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0925f4c6e42de040000f9
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.657998', 'packet_id': 1, 'session_uid': '6886778644900324398', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092b5a16e42e0040000fb
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092c9b26e42e0040000fb
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.737165', 'packet_id': 1, 'session_uid': '14524883612920685614', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09222196f42e2040000fd
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.793874', 'packet_id': 1, 'session_uid': '2491265408586720302', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c0928c7f6f42e4040000ff
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0928c7f6f42e4040000ff
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.899387', 'packet_id': 1, 'session_uid': '10129370376607081518', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092bab26f42e504000000
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 228, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 228, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:29.959677', 'packet_id': 1, 'session_uid': '13444019702351766574', 'car_index': 255, 'session_type': 228}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092f1e56f42e604000001
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.014725', 'packet_id': 1, 'session_uid': '17407187374437803054', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c09223197042e704000002
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -98, 'airTemperature': -72, 'totalLaps': 151, 'trackLength': 13375, 'sessionType': 96, 'trackId': 123, 'formula': 63, 'sessionTimeLeft': 56522, 'sessionDuration': 16245, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -98, 'airTemperature': -72, 'totalLaps': 151, 'trackLength': 13375, 'sessionType': 96, 'trackId': 123, 'formula': 63, 'sessionTimeLeft': 56522, 'sessionDuration': 16245, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.065252', 'packet_id': 1, 'session_uid': '2563323002624648238', 'car_index': 255, 'session_type': 96}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092847f7042e904000004
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 81, 'airTemperature': 48, 'totalLaps': 152, 'trackLength': 65087, 'sessionType': 212, 'trackId': 123, 'formula': 63, 'sessionTimeLeft': 22071, 'sessionDuration': 16246, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 81, 'airTemperature': 48, 'totalLaps': 152, 'trackLength': 65087, 'sessionType': 212, 'trackId': 123, 'formula': 63, 'sessionTimeLeft': 22071, 'sessionDuration': 16246, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.120249', 'packet_id': 1, 'session_uid': '9552909624303658030', 'car_index': 255, 'session_type': 212}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092847f7042e904000004
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 117, 'sessionTimeLeft': 143, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 117, 'sessionTimeLeft': 143, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.187250', 'packet_id': 1, 'session_uid': '9552909624303658030', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092f1e57042eb04000006
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -104, 'airTemperature': 109, 'totalLaps': 152, 'trackLength': 61247, 'sessionType': 74, 'trackId': 124, 'formula': 63, 'sessionTimeLeft': 55936, 'sessionDuration': 16246, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -104, 'airTemperature': 109, 'totalLaps': 152, 'trackLength': 61247, 'sessionType': 74, 'trackId': 124, 'formula': 63, 'sessionTimeLeft': 55936, 'sessionDuration': 16246, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.249247', 'packet_id': 1, 'session_uid': '17407187374437803054', 'car_index': 255, 'session_type': 74}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09233197142ec04000007
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.300748', 'packet_id': 1, 'session_uid': '3716244507231495214', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092694c7142ed04000008
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 6, 'airTemperature': -117, 'totalLaps': 152, 'trackLength': 63807, 'sessionType': 154, 'trackId': 124, 'formula': 63, 'sessionTimeLeft': 14564, 'sessionDuration': 16247, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 6, 'airTemperature': -117, 'totalLaps': 152, 'trackLength': 63807, 'sessionType': 154, 'trackId': 124, 'formula': 63, 'sessionTimeLeft': 14564, 'sessionDuration': 16247, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.356248', 'packet_id': 1, 'session_uid': '7607354585279603758', 'car_index': 255, 'session_type': 154}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092694c7142ed04000008
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 77, 'sessionTimeLeft': 144, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 77, 'sessionTimeLeft': 144, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.412748', 'packet_id': 1, 'session_uid': '7607354585279603758', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092c8b27142ef0400000a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 227, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 227, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.470249', 'packet_id': 1, 'session_uid': '14452826018882757678', 'car_index': 255, 'session_type': 227}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092c8b27142ef0400000a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:30.531250', 'packet_id': 1, 'session_uid': '14452826018882757678', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092f4e57142f00400000b
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.583250', 'packet_id': 1, 'session_uid': '17623360156551586862', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0928d197242f10400000c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -28, 'airTemperature': -57, 'totalLaps': 152, 'trackLength': 1599, 'sessionType': 108, 'trackId': 125, 'formula': 63, 'sessionTimeLeft': 9231, 'sessionDuration': 16248, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -28, 'airTemperature': -57, 'totalLaps': 152, 'trackLength': 1599, 'sessionType': 108, 'trackId': 125, 'formula': 63, 'sessionTimeLeft': 9231, 'sessionDuration': 16248, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.635748', 'packet_id': 1, 'session_uid': '10201427970645009454', 'car_index': 255, 'session_type': 108}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092d86e7242f30400000e
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092e87f7242f30400000e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 127, 'airTemperature': -20, 'totalLaps': 152, 'trackLength': 42559, 'sessionType': 207, 'trackId': 125, 'formula': 63, 'sessionTimeLeft': 38800, 'sessionDuration': 16248, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 127, 'airTemperature': -20, 'totalLaps': 152, 'trackLength': 42559, 'sessionType': 207, 'trackId': 125, 'formula': 63, 'sessionTimeLeft': 38800, 'sessionDuration': 16248, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.716251', 'packet_id': 1, 'session_uid': '16758669028096451630', 'car_index': 255, 'session_type': 207}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092b8b27242f40400000f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.767750', 'packet_id': 1, 'session_uid': '13299904514275910702', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092e9e57242f504000010
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -57, 'airTemperature': 21, 'totalLaps': 153, 'trackLength': 21823, 'sessionType': 77, 'trackId': 126, 'formula': 63, 'sessionTimeLeft': 8419, 'sessionDuration': 16249, 
+'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -57, 'airTemperature': 21, 'totalLaps': 153, 'trackLength': 21823, 'sessionType': 77, 'trackId': 126, 'formula': 63, 'sessionTimeLeft': 8419, 'sessionDuration': 16249, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.824748', 'packet_id': 1, 'session_uid': '16830726622134379566', 'car_index': 255, 'session_type': 77}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092e9e57242f504000010
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 173, 'sessionTimeLeft': 159, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 173, 'sessionTimeLeft': 159, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.883747', 'packet_id': 1, 'session_uid': '16830726622134379566', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0928c7f7342f804000013
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.940749', 'packet_id': 1, 'session_uid': '10129370376607081518', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092d8c37342f904000014
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 227, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 227, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:30.994748', 'packet_id': 1, 'session_uid': '15605747523489604654', 'car_index': 255, 'session_type': 227}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092d8c37342f904000014
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:31.055248', 'packet_id': 1, 'session_uid': '15605747523489604654', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0922a197442fb04000016
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -81, 'airTemperature': -99, 'totalLaps': 153, 'trackLength': 8255, 'sessionType': 162, 'trackId': 127, 'formula': 63, 'sessionTimeLeft': 43955, 'sessionDuration': 16250, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -81, 'airTemperature': -99, 'totalLaps': 153, 'trackLength': 8255, 'sessionType': 162, 'trackId': 127, 'formula': 63, 'sessionTimeLeft': 43955, 'sessionDuration': 16250, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.112248', 'packet_id': 1, 'session_uid': '3067726160890143790', 'car_index': 255, 'session_type': 162}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0925b4c7442fc04000017
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.163749', 'packet_id': 1, 'session_uid': '6598548268748612654', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0928b7f7442fd04000018
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 21, 'airTemperature': -37, 'totalLaps': 153, 'trackLength': 26431, 'sessionType': 23, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 17558, 'sessionDuration': 16251, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 21, 'airTemperature': -37, 'totalLaps': 153, 'trackLength': 26431, 'sessionType': 23, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 17558, 'sessionDuration': 16251, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.221251', 'packet_id': 1, 'session_uid': '10057312782569153582', 'car_index': 255, 'session_type': 23}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092f7e57442ff0400001a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 22, 'airTemperature': 21, 'totalLaps': 154, 'trackLength': 58943, 'sessionType': 84, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 52212, 'sessionDuration': 16251, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 22, 'airTemperature': 21, 'totalLaps': 154, 'trackLength': 58943, 'sessionType': 84, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 52212, 'sessionDuration': 16251, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.297748', 'packet_id': 1, 'session_uid': '17839532938665370670', 'car_index': 255, 'session_type': 84}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0923b2a7542000500001b
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.353255', 'packet_id': 1, 'session_uid': '4292705259534918702', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0925f4c7542010500001c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -31, 'airTemperature': 91, 'totalLaps': 154, 'trackLength': 31551, 'sessionType': 149, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 23458, 'sessionDuration': 16252, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -31, 'airTemperature': 91, 'totalLaps': 154, 'trackLength': 31551, 'sessionType': 149, 'trackId': -128, 'formula': 63, 'sessionTimeLeft': 23458, 'sessionDuration': 16252, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.411251', 'packet_id': 1, 'session_uid': '6886778644900324398', 'car_index': 255, 'session_type': 149}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0925f4c7542010500001c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 77, 'sessionTimeLeft': 144, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 77, 'sessionTimeLeft': 144, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.483748', 'packet_id': 1, 'session_uid': '6886778644900324398', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092c2b27542030500001e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 226, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 226, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.537748', 'packet_id': 1, 'session_uid': '14020480454655190062', 'car_index': 255, 'session_type': 226}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092c2b27542030500001e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:31.590250', 'packet_id': 1, 'session_uid': '14020480454655190062', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092f5e57542040500001f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.648750', 'packet_id': 1, 'session_uid': '17695417750589514798', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092321976420505000020
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 64, 'airTemperature': -8, 'totalLaps': 154, 'trackLength': 26175, 'sessionType': 11, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 25128, 'sessionDuration': 16253, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 64, 'airTemperature': -8, 'totalLaps': 154, 'trackLength': 26175, 'sessionType': 11, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 25128, 'sessionDuration': 16253, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.744247', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 11}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092321976420505000020
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 124, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 124, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.798248', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092b8b276420805000023
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.849749', 'packet_id': 1, 'session_uid': '13299904514275910702', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092ebe576420905000024
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -56, 'airTemperature': -115, 'totalLaps': 155, 'trackLength': 24639, 'sessionType': 137, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 31661, 'sessionDuration': 16254, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -56, 'airTemperature': -115, 'totalLaps': 155, 'trackLength': 24639, 'sessionType': 137, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 31661, 'sessionDuration': 16254, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.899747', 'packet_id': 1, 'session_uid': '16974841810210235438', 'car_index': 255, 'session_type': 137}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0922c1977420a05000025
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:31.951747', 'packet_id': 1, 'session_uid': '3211841348965999662', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092614c77420b05000026
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092614c77420b05000026
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 94, 'airTemperature': -34, 'totalLaps': 155, 'trackLength': 47679, 'sessionType': 181, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 57951, 'sessionDuration': 16254, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 94, 'airTemperature': -34, 'totalLaps': 155, 'trackLength': 47679, 'sessionType': 181, 'trackId': -127, 'formula': 63, 'sessionTimeLeft': 57951, 'sessionDuration': 16254, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.027748', 'packet_id': 1, 'session_uid': '7030893832976180270', 'car_index': 255, 'session_type': 181}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092997f77420c05000027
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.076171', 'packet_id': 1, 'session_uid': '11066119099100144686', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092f5e577420e05000029
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.152133', 'packet_id': 1, 'session_uid': '17695417750589514798', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0925e4c7842100500002b
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.204652', 'packet_id': 1, 'session_uid': '6814721050862396462', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0928c7f7842110500002c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 41, 'airTemperature': -106, 'totalLaps': 156, 'trackLength': 50239, 'sessionType': 31, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 59818, 'sessionDuration': 16255, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 41, 'airTemperature': -106, 'totalLaps': 156, 'trackLength': 50239, 'sessionType': 31, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 59818, 'sessionDuration': 16255, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 0, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.250133', 'packet_id': 1, 'session_uid': '10129370376607081518', 'car_index': 255, 'session_type': 31}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092fee57842130500002e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -36, 'airTemperature': -58, 'totalLaps': 156, 'trackLength': 18495, 'sessionType': 57, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 5894, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -36, 'airTemperature': -58, 'totalLaps': 156, 'trackLength': 18495, 'sessionType': 57, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 5894, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.298310', 'packet_id': 1, 'session_uid': '18343936096930866222', 'car_index': 255, 'session_type': 57}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c09232197942140500002f
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09232197942140500002f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.379320', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092634c79421505000030
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 28, 'airTemperature': -9, 'totalLaps': 156, 'trackLength': 22591, 'sessionType': 85, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 15259, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 28, 'airTemperature': -9, 'totalLaps': 156, 'trackLength': 22591, 'sessionType': 85, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 15259, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.430961', 'packet_id': 1, 'session_uid': '7175009021052036142', 'car_index': 255, 'session_type': 85}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0928f7f79421605000031
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 2, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 2, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.484959', 'packet_id': 1, 'session_uid': '10345543158720865326', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092c5b279421705000032
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 225, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 225, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.534457', 'packet_id': 1, 'session_uid': '14236653236768973870', 'car_index': 255, 'session_type': 225}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092c5b279421705000032
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:32.581984', 'packet_id': 1, 'session_uid': '14236653236768973870', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c09271197a421905000034
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 26, 'airTemperature': 121, 'totalLaps': 157, 'trackLength': 51263, 'sessionType': 125, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 29766, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 26, 'airTemperature': 121, 'totalLaps': 157, 'trackLength': 51263, 'sessionType': 125, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 29766, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.631020', 'packet_id': 1, 'session_uid': '8183815337583027246', 'car_index': 255, 'session_type': 125}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092944c7a421a05000035
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.676600', 'packet_id': 1, 'session_uid': '10705831128910505006', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092867f7a421b05000036
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 52, 'airTemperature': -93, 'totalLaps': 157, 'trackLength': 21567, 'sessionType': 146, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 37188, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 52, 'airTemperature': -93, 'totalLaps': 157, 'trackLength': 21567, 'sessionType': 146, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 37188, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.735886', 'packet_id': 1, 'session_uid': '9697024812379513902', 'car_index': 255, 'session_type': 146}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092fbe57a421d05000038
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 53, 'airTemperature': -49, 'totalLaps': 157, 'trackLength': 47167, 'sessionType': 167, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 44644, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 53, 'airTemperature': -49, 'totalLaps': 157, 'trackLength': 47167, 'sessionType': 167, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 44644, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.788403', 'packet_id': 1, 'session_uid': '18127763314817082414', 'car_index': 255, 'session_type': 167}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09222197b421e05000039
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.834673', 'packet_id': 1, 'session_uid': '2491265408586720302', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092564c7b421f0500003a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 53, 'airTemperature': -6, 'totalLaps': 157, 'trackLength': 45631, 'sessionType': 188, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 52275, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 53, 'airTemperature': -6, 'totalLaps': 157, 'trackLength': 45631, 'sessionType': 188, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 52275, 'sessionDuration': 16256, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.890487', 'packet_id': 1, 'session_uid': '6238260298558972974', 'car_index': 255, 'session_type': 188}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092c6b27b42210500003c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 225, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 225, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:32.941016', 'packet_id': 1, 'session_uid': '14308710830806901806', 'car_index': 255, 'session_type': 225}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092c6b27b42210500003c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:32.990615', 'packet_id': 1, 'session_uid': '14308710830806901806', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0922d197c42230500003e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -9, 'airTemperature': 82, 'totalLaps': 158, 'trackLength': 14911, 'sessionType': 238, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 4306, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -9, 'airTemperature': 82, 'totalLaps': 158, 'trackLength': 14911, 'sessionType': 238, 'trackId': -126, 'formula': 63, 'sessionTimeLeft': 4306, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.040657', 'packet_id': 1, 'session_uid': '3283898943003927598', 'car_index': 255, 'session_type': 238}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092634c7c42240500003f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 229, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.088864', 'packet_id': 1, 'session_uid': '7175009021052036142', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092cdb27c422605000041
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 194, 'sessionTimeLeft': 139, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 194, 'sessionTimeLeft': 139, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.141394', 'packet_id': 1, 'session_uid': '14813113989072397358', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092fbe57c422705000042
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -57, 'airTemperature': -72, 'totalLaps': 158, 'trackLength': 5695, 'sessionType': 43, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 24401, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -57, 'airTemperature': -72, 'totalLaps': 158, 'trackLength': 5695, 'sessionType': 43, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 24401, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.189396', 'packet_id': 1, 'session_uid': '18127763314817082414', 'car_index': 255, 'session_type': 43}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0922e197d422805000043
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 85, 'sessionTimeLeft': 161, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.243407', 'packet_id': 1, 'session_uid': '3355956537041855534', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092604c7d422905000044
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -119, 'airTemperature': -21, 'totalLaps': 158, 'trackLength': 28223, 'sessionType': 89, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 39776, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -119, 'airTemperature': -21, 'totalLaps': 158, 'trackLength': 28223, 'sessionType': 89, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 39776, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.289460', 'packet_id': 1, 'session_uid': '6958836238938252334', 'car_index': 255, 'session_type': 89}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092ad907d422b05000046
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092eab27d422b05000046
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 224, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 224, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.361401', 'packet_id': 1, 'session_uid': '16902784216172307502', 'car_index': 255, 'session_type': 224}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0921de67d422c05000047
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 1, 'sessionTimeLeft': 165, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.410799', 'packet_id': 1, 'session_uid': '2130977438397080622', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0923b197e422d05000048
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 41, 'airTemperature': 86, 'totalLaps': 159, 'trackLength': 22335, 'sessionType': 151, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 61392, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 41, 'airTemperature': 86, 'totalLaps': 159, 'trackLength': 22335, 'sessionType': 151, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 61392, 'sessionDuration': 16257, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.461343', 'packet_id': 1, 'session_uid': '4292705259534918702', 'car_index': 255, 'session_type': 151}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0925c4c7e422e05000049
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.507352', 'packet_id': 1, 'session_uid': '6670605862786540590', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092967f7e422f0500004a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 61, 'airTemperature': -122, 'totalLaps': 159, 'trackLength': 11583, 'sessionType': 186, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 7961, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 61, 'airTemperature': -122, 'totalLaps': 159, 'trackLength': 11583, 'sessionType': 186, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 7961, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.563611', 'packet_id': 1, 'session_uid': '10849946316986360878', 'car_index': 255, 'session_type': 186}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092d2b27e42300500004b
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.609107', 'packet_id': 1, 'session_uid': '15173401959262037038', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09233197f42320500004d
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 34, 'sessionTimeLeft': 142, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.660107', 'packet_id': 1, 'session_uid': '3716244507231495214', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c0924f3b7f42330500004e
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092614c7f42330500004e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -99, 'airTemperature': -22, 'totalLaps': 159, 'trackLength': 47935, 'sessionType': 248, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 29888, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -99, 'airTemperature': -22, 'totalLaps': 159, 'trackLength': 47935, 'sessionType': 248, 'trackId': -125, 'formula': 63, 'sessionTimeLeft': 29888, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.727108', 'packet_id': 1, 'session_uid': '7030893832976180270', 'car_index': 255, 'session_type': 248}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c0928c7f7f42340500004f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 22, 'sessionTimeLeft': 153, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.805660', 'packet_id': 1, 'session_uid': '10129370376607081518', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092bfb27f423505000050
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 224, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 224, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.857187', 'packet_id': 1, 'session_uid': '13804307672541406254', 'car_index': 255, 'session_type': 224}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09208e67f423605000051
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 100, 'sessionTimeLeft': 155, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.905568', 'packet_id': 1, 'session_uid': '617767963600593966', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092a00c80423705000052
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -91, 'airTemperature': 74, 'totalLaps': 160, 'trackLength': 43583, 'sessionType': 58, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 52943, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -91, 'airTemperature': 74, 'totalLaps': 160, 'trackLength': 43583, 'sessionType': 58, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 52943, 'sessionDuration': 16258, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:33.956099', 'packet_id': 1, 'session_uid': '11570522257365640238', 'car_index': 255, 'session_type': 58}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092c93f80423905000054
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092c93f80423905000054
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 54, 'airTemperature': -125, 'totalLaps': 160, 'trackLength': 9023, 'sessionType': 114, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 5506, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 54, 'airTemperature': -125, 'totalLaps': 160, 'trackLength': 9023, 'sessionType': 114, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 5506, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.032470', 'packet_id': 1, 'session_uid': '14524883612920685614', 'car_index': 255, 'session_type': 114}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092635980423a05000055
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 194, 'sessionTimeLeft': 139, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 194, 'sessionTimeLeft': 139, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.083546', 'packet_id': 1, 'session_uid': '7175009021052036142', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092fa7280423b05000056
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 29, 'airTemperature': -62, 'totalLaps': 160, 'trackLength': 63295, 'sessionType': 152, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 18952, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 29, 'airTemperature': -62, 'totalLaps': 160, 'trackLength': 63295, 'sessionType': 152, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 18952, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.132109', 'packet_id': 1, 'session_uid': '18055705720779154478', 'car_index': 255, 'session_type': 152}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092fa7280423b05000056
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 15, 'sessionTimeLeft': 137, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 15, 'sessionTimeLeft': 137, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.182396', 'packet_id': 1, 'session_uid': '18055705720779154478', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092b9ae80423d05000058
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 35, 'airTemperature': 2, 'totalLaps': 161, 'trackLength': 21311, 'sessionType': 221, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 40743, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 35, 'airTemperature': 2, 'totalLaps': 161, 'trackLength': 21311, 'sessionType': 221, 'trackId': -124, 'formula': 63, 'sessionTimeLeft': 40743, 'sessionDuration': 16259, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.232729', 'packet_id': 1, 'session_uid': '13371962108313838638', 'car_index': 255, 'session_type': 221}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092ccbf80423e05000059
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 2, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 2, 'sessionTimeLeft': 150, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.287230', 'packet_id': 1, 'session_uid': '14741056395034469422', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c09266d980423f0500005a
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 223, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 223, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.342226', 'packet_id': 1, 'session_uid': '7391181803165819950', 'car_index': 255, 'session_type': 223}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c0929c0c8142410500005c
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': 60, 'airTemperature': -126, 'totalLaps': 161, 'trackLength': 53823, 'sessionType': 81, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 13432, 'sessionDuration': 16260, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': 60, 'airTemperature': -126, 'totalLaps': 161, 'trackLength': 53823, 'sessionType': 81, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 13432, 'sessionDuration': 16260, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.389228', 'packet_id': 1, 'session_uid': '11282291881213928494', 'car_index': 255, 'session_type': 81}
+🧪 Tamaño paquete recibido: 45
+🧪 Bytes iniciales: e7071701150103142ea40798b0c092ae1d8142420500005d
+🧪 Tamaño esperado de PacketHeader: 32
+⚠️ Paquete session demasiado corto: 13 bytes
+🛰️ packet_id recibido: 1
+parsed data {'session': '', 'error': 'Paquete session demasiado corto'}
+data to send
+{'session': '', 'error': 'Paquete session demasiado corto'}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09238268142420500005d
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 239, 'sessionTimeLeft': 156, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.460228', 'packet_id': 1, 'session_uid': '4076532477421134894', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092d43f8142430500005e
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -63, 'airTemperature': -20, 'totalLaps': 161, 'trackLength': 23871, 'sessionType': 153, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 36950, 'sessionDuration': 16260, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -63, 'airTemperature': -20, 'totalLaps': 161, 'trackLength': 23871, 'sessionType': 153, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 36950, 'sessionDuration': 16260, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.510227', 'packet_id': 1, 'session_uid': '15317517147337892910', 'car_index': 255, 'session_type': 153}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c09278598142440500005f
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 112, 'sessionTimeLeft': 164, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.560729', 'packet_id': 1, 'session_uid': '8688218495848522798', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 644
+🧪 Bytes iniciales: e7071701150101142ea40798b0c092328281424505000060
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 223, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}}
+data to send
+{'session': {'weather': 5, 'trackTemperature': -71, 'airTemperature': 22, 'totalLaps': 10, 'trackLength': 13, 'sessionType': 223, 'trackId': 27, 'formula': 32, 'sessionTimeLeft': 20508, 'sessionDuration': 0, 'pitSpeedLimit': 255, 'gamePaused': 0, 'isSpectating': 19, 'spectatorCarIndex': 54, 'sliProNativeSupport': 173, 'numMarshalZones': 235, 'safetyCarStatus': 61, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.608727', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 223}
+🧪 Tamaño paquete recibido: 1107
+🧪 Bytes iniciales: e7071701150105142ea40798b0c092328281424505000060
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}}
+data to send
+{'session': {'weather': 55, 'trackTemperature': 0, 'airTemperature': 0, 'totalLaps': 64, 'trackLength': 192, 'sessionType': 0, 'trackId': -64, 'formula': 191, 'sessionTimeLeft': 52429, 'sessionDuration': 15692, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 128, 'spectatorCarIndex': 62, 'sliProNativeSupport': 40, 'numMarshalZones': 32, 'safetyCarStatus': 11, 'networkGame': 5}, 'timestamp': '2025-04-02T15:48:34.658729', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 0}
+🧪 Tamaño paquete recibido: 953
+🧪 Bytes iniciales: e707170115010a142ea40798b0c092328281424505000060
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 63, 'trackTemperature': -111, 'airTemperature': 72, 'totalLaps': 162, 'trackLength': 43071, 'sessionType': 244, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 982, 'sessionDuration': 16261, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 63, 'trackTemperature': -111, 'airTemperature': 72, 'totalLaps': 162, 'trackLength': 43071, 'sessionType': 244, 'trackId': -123, 'formula': 63, 'sessionTimeLeft': 982, 'sessionDuration': 16261, 'pitSpeedLimit': 1, 'gamePaused': 1, 'isSpectating': 1, 'spectatorCarIndex': 1, 'sliProNativeSupport': 0, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.706227', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 244}
+🧪 Tamaño paquete recibido: 1460
+🧪 Bytes iniciales: e707170115010b142ea40798b0c092328281424505000060
+🧪 Tamaño esperado de PacketHeader: 32
+🛰️ packet_id recibido: 1
+parsed data {'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 173, 'sessionTimeLeft': 159, 'sessionDuration': 0, 'pitSpeedLimit': 
+0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}}
+data to send
+{'session': {'weather': 0, 'trackTemperature': 1, 'airTemperature': 0, 'totalLaps': 0, 'trackLength': 0, 'sessionType': 0, 'trackId': 0, 'formula': 173, 'sessionTimeLeft': 159, 'sessionDuration': 0, 'pitSpeedLimit': 0, 'gamePaused': 0, 'isSpectating': 0, 'spectatorCarIndex': 0, 'sliProNativeSupport': 15, 'numMarshalZones': 0, 'safetyCarStatus': 0, 'networkGame': 0}, 'timestamp': '2025-04-02T15:48:34.760727', 'packet_id': 1, 'session_uid': '3644186913193567278', 'car_index': 255, 'session_type': 0}
