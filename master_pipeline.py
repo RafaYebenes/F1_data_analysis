@@ -11,6 +11,7 @@ from sql.queries import (
     query_event,
     query_car_telemetry
 )
+from resources.utils import *
 
 # Configuración de Redis
 redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
@@ -44,113 +45,86 @@ consumer = KafkaConsumer(
 def save_to_redis(data):
     try:
         for key, value in data.items():
-            if isinstance(value, list):
-                value = json.dumps(value)  # Convertimos listas a string JSON
-            print("values", value)
-            redis_client.set(key, value)
+           if isinstance(value, dict) or isinstance(value, list):
+                value = json.dumps(value)  # Transforma dicts o listas en JSON string
+                redis.set(key, value)
         print("✅ Datos guardados correctamente en Redis")
     except Exception as e:
         print(f"❌ Error al guardar datos en Redis: {e}")
 
 
 def save_to_postgres(data):
-
-    print("data recibido", data)
+    print("📥 Entrando en PostgreSQL:", data)
     timestamp = data.get('timestamp', datetime.utcnow().isoformat())
     session_uid = data.get('session_uid')
     car_index = data.get('car_index')
-    session_type = data.get('session_type')
 
-    if 'motion' in data:
-        motion = data['motion']
-        cursor.execute(query_motion, (
-            timestamp, session_uid, car_index,
-            *motion['worldPosition'],
-            *motion['velocity'],
-            *motion['gForce'],
-            *motion['rotation']
-        ))
+    try:
+        if 'motion' in data:
+            createFile(data, "motion")
+            motion = data['motion']
+            cursor.execute(query_motion, (
+                timestamp, session_uid, car_index,
+                data['motion']['worldPosition'][0],
+                data['motion']['worldPosition'][1],
+                data['motion']['worldPosition'][2],
+                data['motion']['velocity'][0],
+                data['motion']['velocity'][1],
+                data['motion']['velocity'][2],
+                data['motion']['gForce'][0],
+                data['motion']['gForce'][1],
+                data['motion']['gForce'][2],
+                data['motion']['rotation'][0],
+                data['motion']['rotation'][1],
+                data['motion']['rotation'][2]
+            ))
 
-    elif 'session' in data:
-        print("entramos postgre session")
-        s = data['session']
-        cursor.execute(query_session, (
-            timestamp, session_uid, car_index,
-            s['weather'], s['trackTemperature'], s['airTemperature'], s['totalLaps'], s['trackLength'],
-            s['sessionType'], s['trackId'], s['formula'], s['sessionTimeLeft'], s['sessionDuration'],
-            s['pitSpeedLimit'], s['gamePaused'], s['isSpectating'], s['spectatorCarIndex'],
-            s['sliProNativeSupport'], s['numMarshalZones'], s['safetyCarStatus'], s['networkGame']
-        ))
 
-    elif 'lapData' in data:
-        l = data['lapData']
-        cursor.execute(query_lap_data, (
-            timestamp, session_uid, car_index,
-            l['lastLapTime'], l['currentLapTime'], l['sector1Time'], l['sector2Time'],
-            l['lapDistance'], l['totalDistance'], l['safetyCarDelta'],
-            l['carPosition'], l['currentLapNum']
-        ))
+        elif 'session' in data:
+            s = data['session']
+            createFile(s, "session")
+            cursor.execute(query_session, (
+                timestamp, session_uid, car_index,
+                s['weather'], s['trackTemperature'], s['airTemperature'], s['totalLaps'], s['trackLength'],
+                s['sessionType'], s['trackId'], s['formula'], s['sessionTimeLeft'], s['sessionDuration'],
+                s['pitSpeedLimit'], s['gamePaused'], s['isSpectating'], s['spectatorCarIndex'],
+                s['sliProNativeSupport'], s['numMarshalZones'], s['safetyCarStatus'], s['networkGame']
+            ))
 
-    elif 'event' in data:
-        e = data['event']
-        cursor.execute(query_event, (timestamp, session_uid, car_index, e['eventStringCode']))
+        elif 'lapData' in data:
+            l = data['lapData']
+            createFile(l, "lapData")
+            cursor.execute(query_lap_data, (
+                timestamp, session_uid, car_index,
+                l['lastLapTime'], l['currentLapTime'], l['sector1Time'], l['sector2Time'],
+                l['lapDistance'], l['totalDistance'], l['safetyCarDelta'],
+                l['carPosition'], l['currentLapNum']
+            ))
 
-    elif 'carTelemetry' in data:
-        t = data['carTelemetry']
-        cursor.execute(query_car_telemetry, (
-            timestamp, session_uid, car_index,
-            t['speed'], t['throttle'], t['steer'], t['brake'], t['clutch'], t['gear'],
-            t['engineRPM'], t['drs'], t['revLightsPercent'],
-            t['brakesTemperature'], t['tyresSurfaceTemperature'], t['tyresInnerTemperature'],
-            t['engineTemperature'], t['tyresPressure']
-        ))
-    
-    timestamp = data.get('timestamp', datetime.utcnow().isoformat())
+        elif 'event' in data:
+            e = data['event']
+            createFile(e, "events")
+            cursor.execute(query_event, (timestamp, session_uid, car_index, e['eventStringCode']))
 
-    if 'motion' in data:
-        motion = data['motion']
-        cursor.execute(query_motion, (
-            timestamp,
-            *motion['worldPosition'],
-            *motion['velocity'],
-            *motion['gForce'],
-            *motion['rotation']
-        ))
+        elif 'carTelemetry' in data:
+            t = data['carTelemetry']
+            createFile(t, "telemetry")
+            cursor.execute(query_car_telemetry, (
+                timestamp, session_uid, car_index,
+                t['speed'], t['throttle'], t['steer'], t['brake'], t['clutch'], t['gear'],
+                t['engineRPM'], t['drs'], t['revLightsPercent'],
+                json.dumps(t['brakesTemperature']),
+                json.dumps(t['tyresSurfaceTemperature']),
+                json.dumps(t['tyresInnerTemperature']),
+                t['engineTemperature'],
+                json.dumps(t['tyresPressure'])
+            ))
 
-    elif 'session' in data:
-        s = data['session']
-        cursor.execute(query_session, (
-            timestamp,
-            s['weather'], s['trackTemperature'], s['airTemperature'], s['totalLaps'], s['trackLength'],
-            s['sessionType'], s['trackId'], s['formula'], s['sessionTimeLeft'], s['sessionDuration'],
-            s['pitSpeedLimit'], s['gamePaused'], s['isSpectating'], s['spectatorCarIndex'],
-            s['sliProNativeSupport'], s['numMarshalZones'], s['safetyCarStatus'], s['networkGame']
-        ))
+        conn.commit()
+        print("✅ Datos guardados correctamente en PostgreSQL")
 
-    elif 'lapData' in data:
-        l = data['lapData']
-        cursor.execute(query_lap_data, (
-            timestamp,
-            l['lastLapTime'], l['currentLapTime'], l['sector1Time'], l['sector2Time'],
-            l['lapDistance'], l['totalDistance'], l['safetyCarDelta'],
-            l['carPosition'], l['currentLapNum']
-        ))
-
-    elif 'event' in data:
-        e = data['event']
-        cursor.execute(query_event, (timestamp, e['eventStringCode']))
-
-    elif 'carTelemetry' in data:
-        t = data['carTelemetry']
-        cursor.execute(query_car_telemetry, (
-            timestamp,
-            t['speed'], t['throttle'], t['steer'], t['brake'], t['clutch'], t['gear'],
-            t['engineRPM'], t['drs'], t['revLightsPercent'],
-            t['brakesTemperature'], t['tyresSurfaceTemperature'], t['tyresInnerTemperature'],
-            t['engineTemperature'], t['tyresPressure']
-        ))
-    print('insertado con exito')
-    conn.commit()
+    except Exception as e:
+        print(f"❌ Error al guardar datos en PostgreSQL: {e}")
 
 
 def main():

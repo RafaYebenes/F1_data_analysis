@@ -114,7 +114,7 @@ def header_to_dict(header):
     }
 
 def createFile(entry, filename):
-    path = f"{filename}.json"
+    path = f"logs/{filename}.json"
     
     if os.path.exists(path) and os.path.getsize(path) > 0:
         try:
