@@ -12,6 +12,7 @@ from sql.queries import (
     query_car_telemetry
 )
 from resources.utils import *
+from sparkServices.realtime_live_data import update_live_data
 
 # Configuración de Redis
 redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
@@ -133,7 +134,7 @@ def main():
         try:
             data = message.value  # Los datos que llegan de Kafka
             # Guardar datos en Redis y PostgreSQL
-            save_to_postgres(data)
+            update_live_data(data)
             save_to_redis(data)
         except Exception as e:
             print(f"❌ Error al procesar mensaje de Kafka: {e}")

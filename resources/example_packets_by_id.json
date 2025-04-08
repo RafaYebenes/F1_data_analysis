@@ -1,0 +1,4703 @@
+{
+    "0": {
+        "motion": [
+            {
+                "position": [
+                    -239.79995727539062,
+                    93.13673400878906,
+                    -551.64306640625
+                ],
+                "velocity": [
+                    13.504476547241211,
+                    0.3494458496570587,
+                    -7.789549827575684
+                ],
+                "forwardDir": [
+                    28326,
+                    315,
+                    -16468
+                ],
+                "rightDir": [
+                    16467,
+                    172,
+                    28327
+                ],
+                "gForce": [
+                    -0.40042075514793396,
+                    -0.0673176646232605,
+                    0.02700215019285679
+                ],
+                "rotation": [
+                    2.097418785095215,
+                    -0.009618878364562988,
+                    -0.0052535948343575
+                ]
+            },
+            {
+                "position": [
+                    -375.6294860839844,
+                    91.37257385253906,
+                    -99.57078552246094
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1290,
+                    -300,
+                    -32740
+                ],
+                "rightDir": [
+                    32737,
+                    498,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021833419799805,
+                    0.009163737297058105,
+                    -0.015229258686304092
+                ]
+            },
+            {
+                "position": [
+                    -381.13848876953125,
+                    91.29180908203125,
+                    -91.7763900756836
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -346,
+                    -32739
+                ],
+                "rightDir": [
+                    32737,
+                    508,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102158784866333,
+                    0.01057422161102295,
+                    -0.015505008399486542
+                ]
+            },
+            {
+                "position": [
+                    -376.3205871582031,
+                    91.37806701660156,
+                    -83.58715057373047
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1292,
+                    -367,
+                    -32739
+                ],
+                "rightDir": [
+                    32737,
+                    524,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021430492401123,
+                    0.01122903823852539,
+                    -0.01600784994661808
+                ]
+            },
+            {
+                "position": [
+                    -381.828125,
+                    91.30009460449219,
+                    -75.8262939453125
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -345,
+                    -32739
+                ],
+                "rightDir": [
+                    32737,
+                    523,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.10215425491333,
+                    0.010548710823059082,
+                    -0.015971478074789047
+                ]
+            },
+            {
+                "position": [
+                    -377.0078430175781,
+                    91.38190460205078,
+                    -67.61579895019531
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -315,
+                    -32740
+                ],
+                "rightDir": [
+                    32737,
+                    502,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102174997329712,
+                    0.0096360445022583,
+                    -0.01533808745443821
+                ]
+            },
+            {
+                "position": [
+                    -382.5207214355469,
+                    91.2935562133789,
+                    -59.81376266479492
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -328,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    480,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021759510040283,
+                    0.01001131534576416,
+                    -0.014661374501883984
+                ]
+            },
+            {
+                "position": [
+                    -377.69647216796875,
+                    91.36754608154297,
+                    -51.6441535949707
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1287,
+                    209,
+                    -32741
+                ],
+                "rightDir": [
+                    32738,
+                    483,
+                    1290
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102292776107788,
+                    -0.00639033317565918,
+                    -0.014761061407625675
+                ]
+            },
+            {
+                "position": [
+                    -383.2120666503906,
+                    91.3002700805664,
+                    -43.856605529785156
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1292,
+                    -394,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    493,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102141857147217,
+                    0.012029886245727539,
+                    -0.015050848014652729
+                ]
+            },
+            {
+                "position": [
+                    -378.3887634277344,
+                    91.3768539428711,
+                    -35.63587951660156
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1287,
+                    193,
+                    -32741
+                ],
+                "rightDir": [
+                    32738,
+                    460,
+                    1290
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102287530899048,
+                    -0.005903005599975586,
+                    -0.014040789566934109
+                ]
+            },
+            {
+                "position": [
+                    -383.9052734375,
+                    91.3072738647461,
+                    -27.869178771972656
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -314,
+                    -32740
+                ],
+                "rightDir": [
+                    32738,
+                    488,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102179527282715,
+                    0.009604454040527344,
+                    -0.014919926412403584
+                ]
+            },
+            {
+                "position": [
+                    -379.0743103027344,
+                    91.37617492675781,
+                    -19.660383224487305
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -328,
+                    -32739
+                ],
+                "rightDir": [
+                    32737,
+                    509,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021668910980225,
+                    0.010023355484008789,
+                    -0.015555656515061855
+                ]
+            },
+            {
+                "position": [
+                    -384.5787658691406,
+                    91.3030014038086,
+                    -11.878988265991211
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1292,
+                    -362,
+                    -32739
+                ],
+                "rightDir": [
+                    32737,
+                    515,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021487712860107,
+                    0.01105964183807373,
+                    -0.015741949900984764
+                ]
+            },
+            {
+                "position": [
+                    -379.76171875,
+                    91.37449645996094,
+                    -3.6666758060455322
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -353,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    491,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.102160930633545,
+                    0.010790586471557617,
+                    -0.015004717744886875
+                ]
+            },
+            {
+                "position": [
+                    -385.26519775390625,
+                    91.3023681640625,
+                    4.124610424041748
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -349,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    472,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021690368652344,
+                    0.010661602020263672,
+                    -0.014412523247301579
+                ]
+            },
+            {
+                "position": [
+                    -380.45416259765625,
+                    91.37696838378906,
+                    12.323439598083496
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -325,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    491,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021738052368164,
+                    0.009943127632141113,
+                    -0.014987663365900517
+                ]
+            },
+            {
+                "position": [
+                    -385.98187255859375,
+                    91.29644775390625,
+                    20.088808059692383
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1287,
+                    179,
+                    -32741
+                ],
+                "rightDir": [
+                    32737,
+                    486,
+                    1290
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1022789478302,
+                    -0.0054645538330078125,
+                    -0.014860061928629875
+                ]
+            },
+            {
+                "position": [
+                    -381.166259765625,
+                    91.38700103759766,
+                    28.274089813232422
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -355,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    472,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021664142608643,
+                    0.01085042953491211,
+                    -0.014407718554139137
+                ]
+            },
+            {
+                "position": [
+                    -386.676513671875,
+                    91.32218170166016,
+                    36.07437515258789
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -346,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    447,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021780967712402,
+                    0.01058971881866455,
+                    -0.013668044470250607
+                ]
+            },
+            {
+                "position": [
+                    -381.844970703125,
+                    91.38670349121094,
+                    44.263492584228516
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -325,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    468,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021809577941895,
+                    0.009926438331604004,
+                    -0.014286731369793415
+                ]
+            },
+            {
+                "position": [
+                    -387.3644714355469,
+                    91.30187225341797,
+                    52.08192443847656
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1287,
+                    188,
+                    -32741
+                ],
+                "rightDir": [
+                    32738,
+                    469,
+                    1290
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1022846698760986,
+                    -0.005756735801696777,
+                    -0.014316302724182606
+                ]
+            },
+            {
+                "position": [
+                    -382.52618408203125,
+                    91.38318634033203,
+                    60.26803207397461
+                ],
+                "velocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "forwardDir": [
+                    1291,
+                    -348,
+                    -32739
+                ],
+                "rightDir": [
+                    32738,
+                    471,
+                    1286
+                ],
+                "gForce": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    3.1021697521209717,
+                    0.010644674301147461,
+                    -0.014381103217601776
+                ]
+            }
+        ],
+        "packet_id": 0,
+        "timestamp": "2025-04-05T14:06:01.166566",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "1": {
+        "session": {
+            "weather": 0,
+            "trackTemperature": 49,
+            "airTemperature": 32,
+            "totalLaps": 1,
+            "trackLength": 5408,
+            "sessionType": 18,
+            "trackId": 3,
+            "formula": 0,
+            "sessionTimeLeft": 0,
+            "sessionDuration": 600,
+            "pitSpeedLimit": 80,
+            "gamePaused": 0,
+            "isSpectating": 0,
+            "spectatorCarIndex": 255,
+            "sliProNativeSupport": 0,
+            "numMarshalZones": 17,
+            "safetyCarStatus": 0,
+            "networkGame": 0,
+            "weatherForecastSamples": []
+        },
+        "packet_id": 1,
+        "timestamp": "2025-04-05T13:59:55.668031",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "2": {
+        "lapData": [
+            {
+                "lastLapTimeInMS": 181937,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 879.5009765625,
+                "totalDistance": 6288.38623046875,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 2,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 1,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 1,
+                "driverStatus": 1,
+                "resultStatus": 2,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 320.0965270996094,
+                "speedTrapFastestLap": 2
+            },
+            {
+                "lastLapTimeInMS": 116899,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 237.57620239257812,
+                "totalDistance": 237.57620239257812,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 2,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 229.56106567382812,
+                "totalDistance": 229.56106567382812,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 221.57919311523438,
+                "totalDistance": 221.57919311523438,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 213.59539794921875,
+                "totalDistance": 213.59539794921875,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 205.5946044921875,
+                "totalDistance": 205.5946044921875,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 197.5672149658203,
+                "totalDistance": 197.5672149658203,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 189.6096649169922,
+                "totalDistance": 189.6096649169922,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 181.5944061279297,
+                "totalDistance": 181.5944061279297,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 173.5876922607422,
+                "totalDistance": 173.5876922607422,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 165.59072875976562,
+                "totalDistance": 165.59072875976562,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 157.59848022460938,
+                "totalDistance": 157.59848022460938,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 149.5851287841797,
+                "totalDistance": 149.5851287841797,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 141.5909881591797,
+                "totalDistance": 141.5909881591797,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 133.56558227539062,
+                "totalDistance": 133.56558227539062,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 125.58688354492188,
+                "totalDistance": 125.58688354492188,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 117.58406829833984,
+                "totalDistance": 117.58406829833984,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 109.62031555175781,
+                "totalDistance": 109.62031555175781,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 101.58383178710938,
+                "totalDistance": 101.58383178710938,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 93.61505126953125,
+                "totalDistance": 93.61505126953125,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 85.56209564208984,
+                "totalDistance": 85.56209564208984,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            },
+            {
+                "lastLapTimeInMS": 0,
+                "currentLapTimeInMS": 17587,
+                "sector1TimeMSPart": 0,
+                "sector1TimeMinutesPart": 0,
+                "sector2TimeMSPart": 0,
+                "sector2TimeMinutesPart": 0,
+                "deltaToCarInFrontMSPart": 0,
+                "deltaToCarInFrontMinutesPart": 0,
+                "deltaToRaceLeaderMSPart": 0,
+                "deltaToRaceLeaderMinutesPart": 0,
+                "lapDistance": 77.59455108642578,
+                "totalDistance": 77.59455108642578,
+                "safetyCarDelta": -0.0,
+                "carPosition": 1,
+                "currentLapNum": 1,
+                "pitStatus": 0,
+                "numPitStops": 0,
+                "sector": 0,
+                "currentLapInvalid": 0,
+                "penalties": 0,
+                "totalWarnings": 0,
+                "cornerCuttingWarnings": 0,
+                "numUnservedDriveThroughPens": 0,
+                "numUnservedStopGoPens": 0,
+                "gridPosition": 0,
+                "driverStatus": 1,
+                "resultStatus": 0,
+                "pitLaneTimerActive": 0,
+                "pitLaneTimeInLaneInMS": 0,
+                "pitStopTimerInMS": 0,
+                "pitStopShouldServePen": 0,
+                "speedTrapFastestSpeed": 0.0,
+                "speedTrapFastestLap": 255
+            }
+        ],
+        "pbCarIdx": 1,
+        "rivalCarIdx": 255,
+        "packet_id": 2,
+        "timestamp": "2025-04-05T14:06:00.999021",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "3": {
+        "event": {
+            "eventStringCode": "BUTN"
+        },
+        "packet_id": 3,
+        "timestamp": "2025-04-05T13:59:55.504573",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    
+    "4": {
+        "participants": [
+            {
+                "aiControlled": 0,
+                "driverId": 255,
+                "networkId": 0,
+                "teamId": 2,
+                "myTeam": 0,
+                "raceNumber": 5,
+                "nationality": 0,
+                "name": "BeadierMoth9695",
+                "yourTelemetry": 1
+            },
+            {
+                "aiControlled": 1,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 4,
+                "myTeam": 1,
+                "raceNumber": 255,
+                "nationality": 1,
+                "name": "\u0002",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 1,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "\u0001\u0002\u0002",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "\u0001",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 54
+            },
+            {
+                "aiControlled": 57,
+                "driverId": 53,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 111
+            },
+            {
+                "aiControlled": 116,
+                "driverId": 104,
+                "networkId": 57,
+                "teamId": 54,
+                "myTeam": 57,
+                "raceNumber": 53,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 105
+            },
+            {
+                "aiControlled": 101,
+                "driverId": 114,
+                "networkId": 77,
+                "teamId": 111,
+                "myTeam": 116,
+                "raceNumber": 104,
+                "nationality": 57,
+                "name": "695",
+                "yourTelemetry": 66
+            },
+            {
+                "aiControlled": 101,
+                "driverId": 97,
+                "networkId": 100,
+                "teamId": 105,
+                "myTeam": 101,
+                "raceNumber": 114,
+                "nationality": 77,
+                "name": "oth9695",
+                "yourTelemetry": 104
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 5,
+                "networkId": 0,
+                "teamId": 66,
+                "myTeam": 101,
+                "raceNumber": 97,
+                "nationality": 100,
+                "name": "ierMoth9695",
+                "yourTelemetry": 255
+            },
+            {
+                "aiControlled": 1,
+                "driverId": 255,
+                "networkId": 3,
+                "teamId": 177,
+                "myTeam": 0,
+                "raceNumber": 5,
+                "nationality": 0,
+                "name": "BeadierMoth9695",
+                "yourTelemetry": 1
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 255,
+                "myTeam": 1,
+                "raceNumber": 255,
+                "nationality": 3,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 1,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "\u0001\u0003",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "\u0001",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            },
+            {
+                "aiControlled": 0,
+                "driverId": 0,
+                "networkId": 0,
+                "teamId": 0,
+                "myTeam": 0,
+                "raceNumber": 0,
+                "nationality": 0,
+                "name": "",
+                "yourTelemetry": 0
+            }
+        ],
+        "numActiveCars": 1,
+        "packet_id": 4,
+        "timestamp": "2025-04-05T14:02:24.718555",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "5": {
+        "carSetups": [
+            {
+                "frontWing": 25,
+                "rearWing": 25,
+                "onThrottle": 25,
+                "offThrottle": 50,
+                "frontCamber": -3.200000047683716,
+                "rearCamber": -1.9000000953674316,
+                "frontToe": 0.25,
+                "rearToe": 0.25,
+                "frontSuspension": 25,
+                "rearSuspension": 17,
+                "frontAntiRollBar": 13,
+                "rearAntiRollBar": 9,
+                "frontSuspensionHeight": 32,
+                "rearSuspensionHeight": 77,
+                "brakePressure": 97,
+                "brakeBias": 57,
+                "rearLeftTyrePressure": -2.0463546222121431e-13,
+                "rearRightTyrePressure": -2.0463580103439322e-13,
+                "frontLeftTyrePressure": -19.200319290161133,
+                "frontRightTyrePressure": -19.200319290161133,
+                "ballast": 65,
+                "fuelLoad": 1.0842029479673287e-19
+            },
+            {
+                "frontWing": 65,
+                "rearWing": 26,
+                "onThrottle": 24,
+                "offThrottle": 25,
+                "frontCamber": 3.689379601067488e+19,
+                "rearCamber": -2.0000457763671875,
+                "frontToe": 107376120.0,
+                "rearToe": -151995621048320.0,
+                "frontSuspension": 62,
+                "rearSuspension": 37,
+                "frontAntiRollBar": 12,
+                "rearAntiRollBar": 21,
+                "frontSuspensionHeight": 11,
+                "rearSuspensionHeight": 20,
+                "brakePressure": 80,
+                "brakeBias": 100,
+                "rearLeftTyrePressure": -107581904.0,
+                "rearRightTyrePressure": -107613504.0,
+                "frontLeftTyrePressure": 4.173639922555594e-08,
+                "frontRightTyrePressure": 4.1736509359679985e-08,
+                "ballast": 199,
+                "fuelLoad": 2.243478841384032e-42
+            },
+            {
+                "frontWing": 32,
+                "rearWing": 65,
+                "onThrottle": 26,
+                "offThrottle": 24,
+                "frontCamber": 2.514630094230884e-41,
+                "rearCamber": 6.901114677106859e-41,
+                "frontToe": -107871744.0,
+                "rearToe": 9.111547648075379e-33,
+                "frontSuspension": 215,
+                "rearSuspension": 62,
+                "frontAntiRollBar": 37,
+                "rearAntiRollBar": 12,
+                "frontSuspensionHeight": 21,
+                "rearSuspensionHeight": 11,
+                "brakePressure": 20,
+                "brakeBias": 80,
+                "rearLeftTyrePressure": -186885696.0,
+                "rearRightTyrePressure": -203066560.0,
+                "frontLeftTyrePressure": 4.5089834088685166e-08,
+                "frontRightTyrePressure": 4.511748485924727e-08,
+                "ballast": 51,
+                "fuelLoad": 5.746094417887129e-40
+            },
+            {
+                "frontWing": 0,
+                "rearWing": 32,
+                "onThrottle": 65,
+                "offThrottle": 26,
+                "frontCamber": 6.437486672394207e-39,
+                "rearCamber": 1.766685357339356e-38,
+                "frontToe": -402128896.0,
+                "rearToe": 0.04621581733226776,
+                "frontSuspension": 10,
+                "rearSuspension": 215,
+                "frontAntiRollBar": 62,
+                "rearAntiRollBar": 37,
+                "frontSuspensionHeight": 12,
+                "rearSuspensionHeight": 21,
+                "brakePressure": 11,
+                "brakeBias": 20,
+                "rearLeftTyrePressure": 1.0849433351722837e-08,
+                "rearRightTyrePressure": 21.100000381469727,
+                "frontLeftTyrePressure": 21.100000381469727,
+                "frontRightTyrePressure": 24.899999618530273,
+                "ballast": 51,
+                "fuelLoad": 3.644561402609776e-35
+            },
+            {
+                "frontWing": 0,
+                "rearWing": 0,
+                "onThrottle": 32,
+                "offThrottle": 65,
+                "frontCamber": 9798.025390625,
+                "rearCamber": -3.5,
+                "frontToe": -1.5,
+                "rearToe": 0.05000000074505806,
+                "frontSuspension": 61,
+                "rearSuspension": 10,
+                "frontAntiRollBar": 215,
+                "rearAntiRollBar": 62,
+                "frontSuspensionHeight": 37,
+                "rearSuspensionHeight": 12,
+                "brakePressure": 21,
+                "brakeBias": 11,
+                "rearLeftTyrePressure": 0.0008709442336112261,
+                "rearRightTyrePressure": -2.273753898379173e-14,
+                "frontLeftTyrePressure": -2.2737564394780148e-14,
+                "frontRightTyrePressure": -45875.25390625,
+                "ballast": 65,
+                "fuelLoad": 24.899999618530273
+            },
+            {
+                "frontWing": 6,
+                "rearWing": 0,
+                "onThrottle": 0,
+                "offThrottle": 32,
+                "frontCamber": 7.863517753397753e-24,
+                "rearCamber": 3.689379601067488e+19,
+                "frontToe": -2.0000457763671875,
+                "rearToe": 107376120.0,
+                "frontSuspension": 61,
+                "rearSuspension": 61,
+                "frontAntiRollBar": 10,
+                "rearAntiRollBar": 215,
+                "frontSuspensionHeight": 62,
+                "rearSuspensionHeight": 37,
+                "brakePressure": 12,
+                "brakeBias": 21,
+                "rearLeftTyrePressure": 1.5353468061748356e+22,
+                "rearRightTyrePressure": -107581904.0,
+                "frontLeftTyrePressure": -107613504.0,
+                "frontRightTyrePressure": 4.173639922555594e-08,
+                "ballast": 199,
+                "fuelLoad": -45875.25390625
+            },
+            {
+                "frontWing": 65,
+                "rearWing": 6,
+                "onThrottle": 0,
+                "offThrottle": 0,
+                "frontCamber": 1.993691321208684e-24,
+                "rearCamber": 2.514630094230884e-41,
+                "frontToe": 6.901114677106859e-41,
+                "rearToe": -107871744.0,
+                "frontSuspension": 76,
+                "rearSuspension": 61,
+                "frontAntiRollBar": 61,
+                "rearAntiRollBar": 10,
+                "frontSuspensionHeight": 215,
+                "rearSuspensionHeight": 62,
+                "brakePressure": 37,
+                "brakeBias": 12,
+                "rearLeftTyrePressure": 9935016960.0,
+                "rearRightTyrePressure": -186885696.0,
+                "frontLeftTyrePressure": -203066560.0,
+                "frontRightTyrePressure": 4.5089834088685166e-08,
+                "ballast": 51,
+                "fuelLoad": 4.1736509359679985e-08
+            },
+            {
+                "frontWing": 199,
+                "rearWing": 65,
+                "onThrottle": 6,
+                "offThrottle": 0,
+                "frontCamber": 3.993731394982587e-23,
+                "rearCamber": 6.437486672394207e-39,
+                "frontToe": 1.766685357339356e-38,
+                "rearToe": -402128896.0,
+                "frontSuspension": 204,
+                "rearSuspension": 76,
+                "frontAntiRollBar": 61,
+                "rearAntiRollBar": 61,
+                "frontSuspensionHeight": 10,
+                "rearSuspensionHeight": 215,
+                "brakePressure": 62,
+                "brakeBias": 37,
+                "rearLeftTyrePressure": 7.021857377062264e-27,
+                "rearRightTyrePressure": 1.0849433351722837e-08,
+                "frontLeftTyrePressure": 21.100000381469727,
+                "frontRightTyrePressure": 21.100000381469727,
+                "ballast": 51,
+                "fuelLoad": 4.511748485924727e-08
+            },
+            {
+                "frontWing": 51,
+                "rearWing": 199,
+                "onThrottle": 65,
+                "offThrottle": 6,
+                "frontCamber": 10.0,
+                "rearCamber": 9798.025390625,
+                "frontToe": -3.5,
+                "rearToe": -1.5,
+                "frontSuspension": 205,
+                "rearSuspension": 204,
+                "frontAntiRollBar": 76,
+                "rearAntiRollBar": 61,
+                "frontSuspensionHeight": 61,
+                "rearSuspensionHeight": 10,
+                "brakePressure": 215,
+                "brakeBias": 62,
+                "rearLeftTyrePressure": 2.870549270121158e-32,
+                "rearRightTyrePressure": 0.0008709442336112261,
+                "frontLeftTyrePressure": -2.273753898379173e-14,
+                "frontRightTyrePressure": -2.2737564394780148e-14,
+                "ballast": 65,
+                "fuelLoad": 24.899999618530273
+            },
+            {
+                "frontWing": 51,
+                "rearWing": 51,
+                "onThrottle": 199,
+                "offThrottle": 65,
+                "frontCamber": 1.0842029479673287e-19,
+                "rearCamber": 7.863517753397753e-24,
+                "frontToe": 3.689379601067488e+19,
+                "rearToe": -2.0000457763671875,
+                "frontSuspension": 191,
+                "rearSuspension": 205,
+                "frontAntiRollBar": 204,
+                "rearAntiRollBar": 76,
+                "frontSuspensionHeight": 61,
+                "rearSuspensionHeight": 61,
+                "brakePressure": 10,
+                "brakeBias": 215,
+                "rearLeftTyrePressure": 2.8302153748864724e-26,
+                "rearRightTyrePressure": 1.5353468061748356e+22,
+                "frontLeftTyrePressure": -107581904.0,
+                "frontRightTyrePressure": -107613504.0,
+                "ballast": 168,
+                "fuelLoad": -45875.25390625
+            },
+            {
+                "frontWing": 65,
+                "rearWing": 51,
+                "onThrottle": 51,
+                "offThrottle": 199,
+                "frontCamber": 2.243478841384032e-42,
+                "rearCamber": 1.993691321208684e-24,
+                "frontToe": 2.514630094230884e-41,
+                "rearToe": 6.901114677106859e-41,
+                "frontSuspension": 192,
+                "rearSuspension": 191,
+                "frontAntiRollBar": 205,
+                "rearAntiRollBar": 204,
+                "frontSuspensionHeight": 76,
+                "rearSuspensionHeight": 61,
+                "brakePressure": 61,
+                "brakeBias": 10,
+                "rearLeftTyrePressure": 1.2730047810577435e-31,
+                "rearRightTyrePressure": 9935016960.0,
+                "frontLeftTyrePressure": -186885696.0,
+                "frontRightTyrePressure": -203066560.0,
+                "ballast": 204,
+                "fuelLoad": 4.173639922555594e-08
+            },
+            {
+                "frontWing": 199,
+                "rearWing": 65,
+                "onThrottle": 51,
+                "offThrottle": 51,
+                "frontCamber": 5.746094417887129e-40,
+                "rearCamber": 3.993731394982587e-23,
+                "frontToe": 6.437486672394207e-39,
+                "rearToe": 1.766685357339356e-38,
+                "frontSuspension": 0,
+                "rearSuspension": 192,
+                "frontAntiRollBar": 191,
+                "rearAntiRollBar": 205,
+                "frontSuspensionHeight": 204,
+                "rearSuspensionHeight": 76,
+                "brakePressure": 61,
+                "brakeBias": 61,
+                "rearLeftTyrePressure": 1.6552731090133338e-16,
+                "rearRightTyrePressure": 7.021857377062264e-27,
+                "frontLeftTyrePressure": 1.0849433351722837e-08,
+                "frontRightTyrePressure": 21.100000381469727,
+                "ballast": 205,
+                "fuelLoad": 4.5089834088685166e-08
+            },
+            {
+                "frontWing": 51,
+                "rearWing": 199,
+                "onThrottle": 65,
+                "offThrottle": 51,
+                "frontCamber": 3.644561402609776e-35,
+                "rearCamber": 10.0,
+                "frontToe": 9798.025390625,
+                "rearToe": -3.5,
+                "frontSuspension": 0,
+                "rearSuspension": 0,
+                "frontAntiRollBar": 192,
+                "rearAntiRollBar": 191,
+                "frontSuspensionHeight": 205,
+                "rearSuspensionHeight": 204,
+                "brakePressure": 76,
+                "brakeBias": 61,
+                "rearLeftTyrePressure": 0.41999998688697815,
+                "rearRightTyrePressure": 2.870549270121158e-32,
+                "frontLeftTyrePressure": 0.0008709442336112261,
+                "frontRightTyrePressure": -2.273753898379173e-14,
+                "ballast": 65,
+                "fuelLoad": 21.100000381469727
+            },
+            {
+                "frontWing": 51,
+                "rearWing": 51,
+                "onThrottle": 199,
+                "offThrottle": 65,
+                "frontCamber": 24.899999618530273,
+                "rearCamber": 1.0842029479673287e-19,
+                "frontToe": 7.863517753397753e-24,
+                "rearToe": 3.689379601067488e+19,
+                "frontSuspension": 192,
+                "rearSuspension": 0,
+                "frontAntiRollBar": 0,
+                "rearAntiRollBar": 192,
+                "frontSuspensionHeight": 191,
+                "rearSuspensionHeight": 205,
+                "brakePressure": 204,
+                "brakeBias": 76,
+                "rearLeftTyrePressure": -151995621048320.0,
+                "rearRightTyrePressure": 2.8302153748864724e-26,
+                "frontLeftTyrePressure": 1.5353468061748356e+22,
+                "frontRightTyrePressure": -107581904.0,
+                "ballast": 168,
+                "fuelLoad": -2.2737564394780148e-14
+            },
+            {
+                "frontWing": 65,
+                "rearWing": 51,
+                "onThrottle": 51,
+                "offThrottle": 199,
+                "frontCamber": -45875.25390625,
+                "rearCamber": 2.243478841384032e-42,
+                "frontToe": 1.993691321208684e-24,
+                "rearToe": 2.514630094230884e-41,
+                "frontSuspension": 96,
+                "rearSuspension": 192,
+                "frontAntiRollBar": 0,
+                "rearAntiRollBar": 0,
+                "frontSuspensionHeight": 192,
+                "rearSuspensionHeight": 191,
+                "brakePressure": 205,
+                "brakeBias": 204,
+                "rearLeftTyrePressure": 9.111547648075379e-33,
+                "rearRightTyrePressure": 1.2730047810577435e-31,
+                "frontLeftTyrePressure": 9935016960.0,
+                "frontRightTyrePressure": -186885696.0,
+                "ballast": 204,
+                "fuelLoad": -107613504.0
+            },
+            {
+                "frontWing": 168,
+                "rearWing": 65,
+                "onThrottle": 51,
+                "offThrottle": 51,
+                "frontCamber": 4.1736509359679985e-08,
+                "rearCamber": 5.746094417887129e-40,
+                "frontToe": 3.993731394982587e-23,
+                "rearToe": 6.437486672394207e-39,
+                "frontSuspension": 0,
+                "rearSuspension": 96,
+                "frontAntiRollBar": 192,
+                "rearAntiRollBar": 0,
+                "frontSuspensionHeight": 0,
+                "rearSuspensionHeight": 192,
+                "brakePressure": 191,
+                "brakeBias": 205,
+                "rearLeftTyrePressure": 0.04621581733226776,
+                "rearRightTyrePressure": 1.6552731090133338e-16,
+                "frontLeftTyrePressure": 7.021857377062264e-27,
+                "frontRightTyrePressure": 1.0849433351722837e-08,
+                "ballast": 205,
+                "fuelLoad": -203066560.0
+            },
+            {
+                "frontWing": 204,
+                "rearWing": 168,
+                "onThrottle": 65,
+                "offThrottle": 51,
+                "frontCamber": 4.511748485924727e-08,
+                "rearCamber": 3.644561402609776e-35,
+                "frontToe": 10.0,
+                "rearToe": 9798.025390625,
+                "frontSuspension": 0,
+                "rearSuspension": 0,
+                "frontAntiRollBar": 96,
+                "rearAntiRollBar": 192,
+                "frontSuspensionHeight": 0,
+                "rearSuspensionHeight": 0,
+                "brakePressure": 192,
+                "brakeBias": 191,
+                "rearLeftTyrePressure": 0.05000000074505806,
+                "rearRightTyrePressure": 0.41999998688697815,
+                "frontLeftTyrePressure": 2.870549270121158e-32,
+                "frontRightTyrePressure": 0.0008709442336112261,
+                "ballast": 50,
+                "fuelLoad": 21.100000381469727
+            },
+            {
+                "frontWing": 205,
+                "rearWing": 204,
+                "onThrottle": 168,
+                "offThrottle": 65,
+                "frontCamber": 24.899999618530273,
+                "rearCamber": 24.899999618530273,
+                "frontToe": 1.0842029479673287e-19,
+                "rearToe": 7.863517753397753e-24,
+                "frontSuspension": 70,
+                "rearSuspension": 0,
+                "frontAntiRollBar": 0,
+                "rearAntiRollBar": 96,
+                "frontSuspensionHeight": 192,
+                "rearSuspensionHeight": 0,
+                "brakePressure": 0,
+                "brakeBias": 192,
+                "rearLeftTyrePressure": 107376120.0,
+                "rearRightTyrePressure": -151995621048320.0,
+                "frontLeftTyrePressure": 2.8302153748864724e-26,
+                "frontRightTyrePressure": 1.5353468061748356e+22,
+                "ballast": 58,
+                "fuelLoad": -2.273753898379173e-14
+            },
+            {
+                "frontWing": 65,
+                "rearWing": 205,
+                "onThrottle": 204,
+                "offThrottle": 168,
+                "frontCamber": -45875.25390625,
+                "rearCamber": -45875.25390625,
+                "frontToe": 2.243478841384032e-42,
+                "rearToe": 1.993691321208684e-24,
+                "frontSuspension": 25,
+                "rearSuspension": 70,
+                "frontAntiRollBar": 0,
+                "rearAntiRollBar": 0,
+                "frontSuspensionHeight": 96,
+                "rearSuspensionHeight": 192,
+                "brakePressure": 0,
+                "brakeBias": 0,
+                "rearLeftTyrePressure": -107871744.0,
+                "rearRightTyrePressure": 9.111547648075379e-33,
+                "frontLeftTyrePressure": 1.2730047810577435e-31,
+                "frontRightTyrePressure": 9935016960.0,
+                "ballast": 100,
+                "fuelLoad": -107581904.0
+            },
+            {
+                "frontWing": 168,
+                "rearWing": 65,
+                "onThrottle": 205,
+                "offThrottle": 204,
+                "frontCamber": 4.173639922555594e-08,
+                "rearCamber": 4.1736509359679985e-08,
+                "frontToe": 5.746094417887129e-40,
+                "rearToe": 3.993731394982587e-23,
+                "frontSuspension": 24,
+                "rearSuspension": 25,
+                "frontAntiRollBar": 70,
+                "rearAntiRollBar": 0,
+                "frontSuspensionHeight": 0,
+                "rearSuspensionHeight": 96,
+                "brakePressure": 192,
+                "brakeBias": 0,
+                "rearLeftTyrePressure": -402128896.0,
+                "rearRightTyrePressure": 0.04621581733226776,
+                "frontLeftTyrePressure": 1.6552731090133338e-16,
+                "frontRightTyrePressure": 7.021857377062264e-27,
+                "ballast": 80,
+                "fuelLoad": -186885696.0
+            },
+            {
+                "frontWing": 204,
+                "rearWing": 168,
+                "onThrottle": 65,
+                "offThrottle": 205,
+                "frontCamber": 4.5089834088685166e-08,
+                "rearCamber": 4.511748485924727e-08,
+                "frontToe": 3.644561402609776e-35,
+                "rearToe": 10.0,
+                "frontSuspension": 26,
+                "rearSuspension": 24,
+                "frontAntiRollBar": 25,
+                "rearAntiRollBar": 70,
+                "frontSuspensionHeight": 0,
+                "rearSuspensionHeight": 0,
+                "brakePressure": 96,
+                "brakeBias": 192,
+                "rearLeftTyrePressure": -1.5,
+                "rearRightTyrePressure": 0.05000000074505806,
+                "frontLeftTyrePressure": 0.41999998688697815,
+                "frontRightTyrePressure": 2.870549270121158e-32,
+                "ballast": 20,
+                "fuelLoad": 1.0849433351722837e-08
+            },
+            {
+                "frontWing": 205,
+                "rearWing": 204,
+                "onThrottle": 168,
+                "offThrottle": 65,
+                "frontCamber": 21.100000381469727,
+                "rearCamber": 24.899999618530273,
+                "frontToe": 24.899999618530273,
+                "rearToe": 1.0842029479673287e-19,
+                "frontSuspension": 65,
+                "rearSuspension": 26,
+                "frontAntiRollBar": 24,
+                "rearAntiRollBar": 25,
+                "frontSuspensionHeight": 70,
+                "rearSuspensionHeight": 0,
+                "brakePressure": 0,
+                "brakeBias": 96,
+                "rearLeftTyrePressure": -2.0000457763671875,
+                "rearRightTyrePressure": 107376120.0,
+                "frontLeftTyrePressure": -151995621048320.0,
+                "frontRightTyrePressure": 2.8302153748864724e-26,
+                "ballast": 11,
+                "fuelLoad": 0.0008709442336112261
+            }
+        ],
+        "packet_id": 5,
+        "timestamp": "2025-04-05T14:02:24.808389",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "6": {
+        "carTelemetry": [
+            {
+                "speed": 56,
+                "throttle": 0.0,
+                "steer": 0.05414971709251404,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 8,
+                "engineRPM": 3610,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 0,
+                "brakesTemperature": [
+                    619,
+                    618,
+                    665,
+                    654
+                ],
+                "tyresSurfaceTemperature": [
+                    97,
+                    97,
+                    97,
+                    97
+                ],
+                "tyresInnerTemperature": [
+                    97,
+                    97,
+                    97,
+                    97
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    21.710573196411133,
+                    21.710573196411133,
+                    24.666473388671875,
+                    24.666473388671875
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    21.100000381469727,
+                    21.100000381469727,
+                    24.899999618530273,
+                    24.899999618530273
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    21.100000381469727,
+                    21.100000381469727,
+                    24.899999618530273,
+                    24.899999618530273
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    21.100000381469727,
+                    21.100000381469727,
+                    24.899999618530273,
+                    24.899999618530273
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "speed": 0,
+                "throttle": 0.0,
+                "steer": -0.0,
+                "brake": 0.0,
+                "clutch": 0,
+                "gear": 0,
+                "engineRPM": 3499,
+                "drs": 0,
+                "revLightsPercent": 0,
+                "revLightsBitValue": 16384,
+                "brakesTemperature": [
+                    27,
+                    27,
+                    27,
+                    27
+                ],
+                "tyresSurfaceTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "tyresInnerTemperature": [
+                    70,
+                    70,
+                    70,
+                    70
+                ],
+                "engineTemperature": 110,
+                "tyresPressure": [
+                    23.5,
+                    23.5,
+                    26.0,
+                    26.0
+                ],
+                "surfaceType": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "mfdPanelIndex": 255,
+        "mfdPanelIndexSecondaryPlayer": 255,
+        "suggestedGear": 0,
+        "packet_id": 6,
+        "timestamp": "2025-04-05T14:06:01.394580",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },"7": {
+        "carStatus": [
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 57,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 0,
+                "drsActivationDistance": 127,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 1,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 72918.828125,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 2,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 1,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            },
+            {
+                "tractionControl": 0,
+                "antiLockBrakes": 0,
+                "fuelMix": 1,
+                "frontBrakeBias": 58,
+                "pitLimiterStatus": 0,
+                "fuelInTank": 10.0,
+                "fuelCapacity": 110.0,
+                "fuelRemainingLaps": 5.4098358154296875,
+                "maxRPM": 13999,
+                "idleRPM": 3499,
+                "maxGears": 9,
+                "drsAllowed": 1,
+                "drsActivationDistance": 0,
+                "actualTyreCompound": 18,
+                "visualTyreCompound": 16,
+                "tyresAgeLaps": 0,
+                "vehicleFiaFlags": 0,
+                "enginePowerICE": 66726.96875,
+                "enginePowerMGUK": 0.0,
+                "ersStoreEnergy": 4000000.0,
+                "ersDeployMode": 1,
+                "ersHarvestedThisLapMGUK": 0.0,
+                "ersHarvestedThisLapMGUH": 0.0,
+                "ersDeployedThisLap": 0.0,
+                "networkPaused": 0
+            }
+        ],
+        "packet_id": 7,
+        "timestamp": "2025-04-05T14:06:01.545418",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "10": {
+        "carDamage": [
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            },
+            {
+                "tyresWear": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tyresDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "brakesDamage": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "frontLeftWingDamage": 0,
+                "frontRightWingDamage": 0,
+                "rearWingDamage": 0,
+                "floorDamage": 0,
+                "diffuserDamage": 0,
+                "sidepodDamage": 0,
+                "drsFault": 0,
+                "gearBoxDamage": 0,
+                "engineDamage": 0,
+                "engineMGUHWear": 0,
+                "engineESWear": 0,
+                "engineCEWear": 0,
+                "engineICEWear": 0,
+                "engineMGUKWear": 0,
+                "engineTCWear": 0
+            }
+        ],
+        "packet_id": 10,
+        "timestamp": "2025-04-05T14:02:24.914303",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "11": {
+        "sessionHistory": {
+            "carIdx": 21,
+            "numLaps": 1,
+            "numTyreStints": 1,
+            "bestLapTimeLapNum": 0,
+            "bestSector1LapNum": 0,
+            "bestSector2LapNum": 0,
+            "bestSector3LapNum": 0,
+            "lapHistoryData": [
+                {
+                    "lapTimeInMS": 0,
+                    "sector1TimeInMS": 0,
+                    "sector2TimeInMS": 0,
+                    "sector3TimeInMS": 0,
+                    "lapValidBitFlags": 0
+                }
+            ],
+            "tyreStintsHistoryData": [
+                {
+                    "endLap": 0,
+                    "tyreActualCompound": 0,
+                    "tyreVisualCompound": 0
+                }
+            ]
+        },
+        "packet_id": 11,
+        "timestamp": "2025-04-05T14:02:24.997374",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "12": {
+        "tyreSets": "",
+        "error": "Paquete demasiado corto: 231 < 270",
+        "packet_id": 12,
+        "timestamp": "2025-04-05T14:06:00.780263",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    },
+    "14": {
+        "timeTrial": {
+            "deltaTimeInMS": -961478144
+        },
+        "packet_id": 14,
+        "timestamp": "2025-04-05T14:06:00.880075",
+        "session_uid": "9644698951179588045",
+        "car_index": 0
+    }
+    
+}

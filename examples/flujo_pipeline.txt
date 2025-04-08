@@ -1,0 +1,14 @@
+[master_pipeline.py]
+    |
+    +--> Recibe datos (via f1_reader / Kafka / Redis)
+    |
+    +--> sparkReceiver.py
+           |
+           +--> Deserializa datos UDP y crea una estructura enriquecida
+           |
+           +--> Enruta a los transformadores según la funcionalidad necesaria:
+                 ├── dashboard_base_data.py
+                 ├── curve_performance.py
+                 ├── tyre_strategy.py
+                 ├── damage_alerts.py
+                 └── driver_style_profile.py
