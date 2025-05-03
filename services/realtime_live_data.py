@@ -1,6 +1,6 @@
 import redis
 import json
-import
+
 # Configura tu conexión a Redis
 redis_client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 
@@ -125,7 +125,6 @@ def get_track_heat_map(packet):
             # Reinicia el estado después de guardar el punto
             heat_map_cache["telemetry"] = None
             heat_map_cache["motion"] = None
-            createFi
             return json.dumps(data_point)
         except Exception as e:
             print("Error al combinar datos del heatmap:", e)
