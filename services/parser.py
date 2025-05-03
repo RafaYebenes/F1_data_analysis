@@ -437,3 +437,20 @@ def parse_lobby_info(self, data):
         'numPlayers': packet.numPlayers
     }
 
+def get_packet_handlers(instance):
+    return {
+        0: instance.parse_motion,
+        1: instance.parse_session,
+        2: instance.parse_lap_data,
+        3: instance.parse_event,
+        4: instance.parse_participants,
+        5: instance.parse_car_setups,
+        6: instance.parse_car_telemetry,
+        7: instance.parse_car_status,
+        8: instance.parse_final_classification,
+        9: instance.parse_lobby_info,
+        10: instance.parse_car_damage,
+        11: instance.parse_session_history,
+        12: instance.parse_tyre_sets,
+        14: instance.parse_time_trial
+    }

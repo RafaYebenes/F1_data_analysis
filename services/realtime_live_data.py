@@ -1,6 +1,6 @@
 import redis
 import json
-
+import
 # Configura tu conexión a Redis
 redis_client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 
@@ -27,6 +27,12 @@ live_data = {
 # Índice del jugador controlado
 player_index = 0  # Puedes actualizarlo dinámicamente si quieres
 
+heat_map_cache = {
+    "telemetry": None,
+    "motion": None
+}
+
+
 def update_live_data(packet):
     packet_id = packet.get("packet_id")
     
@@ -42,7 +48,7 @@ def update_live_data(packet):
                 "throttle": round(car["throttle"], 2)
             })
         except Exception as e:
-            print("Error en telemetry:", e)
+            print("Error en realtime_live_data:", e)
 
     elif packet_id == 7:  # Car Status
         try:
@@ -79,7 +85,7 @@ def update_live_data(packet):
     try:
         return json.dumps(live_data)
     except Exception as e:
-        print("Error publicando en Redis:", e)
+        print("Error en realtime_live_data:", e)
 
 
 def get_damage_info(packet):
@@ -87,4 +93,41 @@ def get_damage_info(packet):
     try:
         return json.dumps(live_data)
     except Exception as e:
-        print("Error publicando en Redis:", e)
+        print("Error en realtime_live_data:", e)
+
+
+def get_track_heat_map(packet):
+    global heat_map_cache
+    packet_id = packet.get("packet_id")
+
+    if packet_id == 6:  # Car Telemetry
+        try:
+            heat_map_cache["telemetry"] = packet["carTelemetry"][player_index]
+        except Exception as e:
+            print("Error en heat_map.telemetry:", e)
+
+    elif packet_id == 0:  # Car Motion
+        try:
+            heat_map_cache["motion"] = packet["motion"][player_index]
+        except Exception as e:
+            print("Error en heat_map.motion:", e)
+
+    # Si ambos están presentes, unificamos y devolvemos
+    if heat_map_cache["telemetry"] and heat_map_cache["motion"]:
+        try:
+            data_point = {
+                "brake": round(heat_map_cache["telemetry"]["brake"], 2),
+                "throttle": round(heat_map_cache["telemetry"]["throttle"], 2),
+                "worldPositionX": round(heat_map_cache["motion"]["position"][0], 2),
+                "worldPositionY": round(heat_map_cache["motion"]["position"][1], 2)
+            }
+
+            # Reinicia el estado después de guardar el punto
+            heat_map_cache["telemetry"] = None
+            heat_map_cache["motion"] = None
+            createFi
+            return json.dumps(data_point)
+        except Exception as e:
+            print("Error al combinar datos del heatmap:", e)
+
+    return None  # No está listo todavía
