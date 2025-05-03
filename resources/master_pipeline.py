@@ -14,6 +14,9 @@ from sql.queries import (
 from resources.utils import *
 from sparkServices.realtime_live_data import update_live_data
 
+
+##DEPRECATED NOW WE USE JUST F1_READER.PY
+
 # Configuración de Redis
 redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
 
