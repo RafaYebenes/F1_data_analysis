@@ -58,23 +58,16 @@ Bun.serve({
   }
 });
 
-// Suscribirse correctamente a Redis (sin bloquear)
-subscriber.subscribe("car_data", (message) => {
-  if (!message) return;
 
-  console.log("📩 Nuevo mensaje desde Redis:", message);
-
-  console.log("👥 Número de clientes activos:", clients.size);
-
+function broadcast(type: string, message: string) {
+  const payload = JSON.stringify({ type, payload: JSON.parse(message) });
   for (const client of clients) {
-    console.log("🔎 Estado del cliente:", client.readyState);
     if (client.readyState === WebSocket.OPEN) {
-      client.send(message);
-      console.log("➡️ Enviado a cliente");
-    } else {
-      console.warn("⚠️ Cliente no está OPEN, no se envía");
+      client.send(payload);
     }
   }
-});
+}
 
-console.log("🚀 WebSocket server listening on ws://localhost:3000");
+subscriber.subscribe("car_data", (msg) => broadcast("car_data", msg));
+subscriber.subscribe("car_damage", (msg) => broadcast("car_damage", msg));
+subscriber.subscribe("trackHeatMap", (msg) => broadcast("trackHeatMap", msg));

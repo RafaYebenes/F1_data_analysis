@@ -5,69 +5,33 @@ from resources.utils import *
 from interfaces.interfaces import *
 import redis
 from services.realtime_live_data import *
+from services.parser import *
+from queue import Queue
+import threading
 
 redis_client = redis.Redis(host='localhost', port=6379, decode_responses=True)
-
-
+packet_queue = Queue()
+##TO-Do añadir función para detectar salidas y mostrar el tiempo que se ha perdido
 class F1Reader:
-    
+
     def __init__(self, ip='0.0.0.0', port=20778):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.packet_handlers = get_packet_handlers(self)
         self.sock.bind((ip, port))
 
-    
-    def start(self):
-        print("🎮 Esperando paquetes UDP de F1...")
-
-        while True:
-
-            data, address = self.sock.recvfrom(65535)
-            
-            header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
-            packet_id = header.packetId
-            
-            #createFile(f"Paquete recibido con ID: {packet_id}\n", "header_struct")
-            header_dict = header_to_dict(header)
-            ##createFile(header_dict, "header")
-            
-            parsed_data = self.route_packet(packet_id, data)
-            parsed_data = parsed_data or {}
-
-            parsed_data['packet_id'] = packet_id
-            parsed_data['timestamp'] = datetime.utcnow().isoformat()
-            parsed_data['session_uid'] = str(header.sessionUID)
-            parsed_data['car_index'] = header.playerCarIndex
-            ##createFile(parsed_data, "parsedData")
-
-            updated_data = ""
-            channel = ""
-            if packet_id in {1, 2, 6, 7}:  # Solo si es Session, Lap Data, Car Telemetry o Car Status
-                channel = "car_data"
-                updated_data = update_live_data(parsed_data)
-                
-                
-            if packet_id == 10:
-                channel = "car_damage"
-                updated_data = get_damage_info(parsed_data)
-            
-            self.save_to_redis(updated_data, channel)
-
-            if packet_id in {0, 6}:
-                trackHeatMap = get_track_heat_map(parsed_data)
-                self.save_to_redis(trackHeatMap, "trackHeatMap")
-
-            yield updated_data
-    
-    
-
     def route_packet(self, packet_id, data):
-
         handler = self.packet_handlers.get(packet_id)
         if handler:
             return handler(data)
         print(f"⚠️ Paquete con packet_id {packet_id} no procesado.")
         return {'error': f'packet_id {packet_id} no procesado'}
+
+    def save_to_redis(self, data, channel):
+        try:
+            redis_client.publish(channel, data)
+            print("✅ Datos guardados correctamente en Redis, canal: ", channel)
+        except Exception as e:
+            print(f"❌ Error al guardar datos en Redis, canal: {channel}: {e}")
 
     def parse_motion(self, data):
         packet = PacketMotionData.from_buffer_copy(data)
@@ -90,6 +54,8 @@ class F1Reader:
 
     def parse_session(self, data):
         packet = PacketSessionData.from_buffer_copy(data)
+
+        header = packet.header  # ← Añade esta línea para extraer el header
 
         return {
             'session': {
@@ -124,14 +90,23 @@ class F1Reader:
                     }
                     for sample in packet.weatherForecastSamples[:packet.numWeatherForecastSamples]
                 ]
+            },
+            'header': {
+                'sessionUID': str(header.sessionUID),
+                'playerCarIndex': header.playerCarIndex,
+                'packetId': header.packetId,
+                'sessionTime': header.sessionTime
             }
-        }
+    }
+
   
     def parse_lap_data(self, data):
         packet = PacketLapData.from_buffer_copy(data)
 
         lap_list = []
+        
         for lap in packet.lapData:
+            ##No se esta parseando bien los datos de lap data desde el juego
             lap_list.append({
                 'lastLapTimeInMS': lap.lastLapTimeInMS,
                 'currentLapTimeInMS': lap.currentLapTimeInMS,
@@ -171,7 +146,8 @@ class F1Reader:
         return {
             'lapData': lap_list,
             'pbCarIdx': packet.timeTrialPBCarIdx,
-            'rivalCarIdx': packet.timeTrialRivalCarIdx
+            'rivalCarIdx': packet.timeTrialRivalCarIdx,
+            'raw_packet': packet    
         }
 
     def parse_event(self, data):
@@ -497,15 +473,123 @@ class F1Reader:
             'numPlayers': packet.numPlayers
         }
 
-    def save_to_redis(self, data, channel):
-        try: 
-            redis_client.publish(channel, data)
-            print("✅ Datos guardados correctamente en Redis")
-        except Exception as e:
-            print(f"❌ Error al guardar datos en Redis: {e}")
 
+
+# Trackeador de vuelta por coche
+last_lap_numbers = {}
+
+def handle_lap_packet(packet, player_index, driver_name, session_uid, track_id, pg_conn):
+    print("✅ Entramos en handle_lap_packet")
+
+    lap_data = packet.lapData[player_index]
+    lap_number = lap_data.currentLapNum
+
+    if player_index not in last_lap_numbers:
+        last_lap_numbers[player_index] = lap_number
+        return
+
+    if lap_number > last_lap_numbers[player_index]:
+        print("🔁 Vuelta completada, procesando guardado en BBDD")
+        last_lap_numbers[player_index] = lap_number
+
+        # Reconstrucción de tiempos
+        sector1 = lap_data.sector1TimeMSPart
+        sector2 = lap_data.sector2TimeMSPart
+        total_time = lap_data.lastLapTimeInMS
+        sector3 = total_time - sector1 - sector2
+        valid = lap_data.currentLapInvalid == 0
+
+        insert_lap_data(pg_conn, {
+            'session_uid': session_uid,
+            'driver_name': driver_name,
+            'lap_number': lap_number - 1,
+            'sector1_time_ms': sector1,
+            'sector2_time_ms': sector2,
+            'sector3_time_ms': sector3,
+            'total_lap_time_ms': total_time,
+            'is_valid_lap': valid,
+            'speed_at_sector1': None,
+            'speed_at_sector2': None,
+            'speed_at_finish_line': None,
+            'track_id': track_id
+        })
+
+
+def udp_listener(sock, queue):
+    while True:
+        try:
+            data, _ = sock.recvfrom(65535)
+            queue.put(data)
+        except Exception as e:
+            print("❌ Error en udp_listener:", e)
+
+
+def packet_processor(queue, reader: F1Reader):
+    while True:
+        try:
+            data = queue.get()
+            header = PacketHeader.from_buffer_copy(data[:ctypes.sizeof(PacketHeader)])
+            packet_id = header.packetId
+
+            parsed_data = reader.route_packet(packet_id, data)
+            parsed_data = parsed_data or {}
+            parsed_data['packet_id'] = packet_id
+            parsed_data['timestamp'] = datetime.utcnow().isoformat()
+            parsed_data['session_uid'] = str(header.sessionUID)
+            parsed_data['car_index'] = header.playerCarIndex
+
+            # Guardamos el track_id desde el paquete de sesión
+            track_id_global = {'value': 0}
+
+            if packet_id == 1 and 'session' in parsed_data:
+                track_id_global['value'] = parsed_data['session']['trackId']
+
+            # Guardado de vuelta si llega paquete de tipo lap data
+            if packet_id == 2 and 'lapData' in parsed_data:
+                handle_lap_packet(
+                    packet=parsed_data['raw_packet'],
+                    player_index=header.playerCarIndex,
+                    driver_name="Rafa",
+                    session_uid=str(header.sessionUID),
+                    track_id=track_id_global['value'] or 0,
+                    pg_conn=pg_conn
+                )
+
+            # Redis
+            updated_data = ""
+            channel = ""
+            if packet_id in {1, 2, 6, 7}:
+                channel = "car_data"
+                updated_data = update_live_data(parsed_data)
+            elif packet_id == 10:
+                channel = "car_damage"
+                updated_data = get_damage_info(parsed_data)
+
+            if channel:
+                reader.save_to_redis(updated_data, channel)
+
+            if packet_id in {0, 6}:
+                heatmap_data = get_track_heat_map(parsed_data)
+                if heatmap_data:
+                    reader.save_to_redis(heatmap_data, "trackHeatMap")
+
+        except Exception as e:
+            print("❌ Error en packet_processor:", e)
 
 if __name__ == '__main__':
     reader = F1Reader()
-    for packet in reader.start():
-        print(packet)
+    queue = Queue()
+
+    listener_thread = threading.Thread(target=udp_listener, args=(reader.sock, queue), daemon=True)
+    processor_thread = threading.Thread(target=packet_processor, args=(queue, reader), daemon=True)
+
+    listener_thread.start()
+    processor_thread.start()
+
+    print("🚀 Hilos iniciados para lectura y procesamiento de paquetes.")
+
+    listener_thread.join()
+    processor_thread.join()
+
+
+

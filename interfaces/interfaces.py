@@ -97,40 +97,43 @@ class PacketSessionData(ctypes.LittleEndianStructure):
 class LapData(ctypes.LittleEndianStructure):
     _pack_ = 1
     _fields_ = [
-        ("lastLapTimeInMS", ctypes.c_uint32),
-        ("currentLapTimeInMS", ctypes.c_uint32),
-        ("sector1TimeMSPart", ctypes.c_uint16),
-        ("sector1TimeMinutesPart", ctypes.c_uint8),
-        ("sector2TimeMSPart", ctypes.c_uint16),
-        ("sector2TimeMinutesPart", ctypes.c_uint8),
-        ("deltaToCarInFrontMSPart", ctypes.c_uint16),
-        ("deltaToCarInFrontMinutesPart", ctypes.c_uint8),
-        ("deltaToRaceLeaderMSPart", ctypes.c_uint16),
-        ("deltaToRaceLeaderMinutesPart", ctypes.c_uint8),
-        ("lapDistance", ctypes.c_float),
-        ("totalDistance", ctypes.c_float),
-        ("safetyCarDelta", ctypes.c_float),
-        ("carPosition", ctypes.c_uint8),
-        ("currentLapNum", ctypes.c_uint8),
-        ("pitStatus", ctypes.c_uint8),
-        ("numPitStops", ctypes.c_uint8),
-        ("sector", ctypes.c_uint8),
-        ("currentLapInvalid", ctypes.c_uint8),
-        ("penalties", ctypes.c_uint8),
-        ("totalWarnings", ctypes.c_uint8),
-        ("cornerCuttingWarnings", ctypes.c_uint8),
-        ("numUnservedDriveThroughPens", ctypes.c_uint8),
-        ("numUnservedStopGoPens", ctypes.c_uint8),
-        ("gridPosition", ctypes.c_uint8),
-        ("driverStatus", ctypes.c_uint8),
-        ("resultStatus", ctypes.c_uint8),
-        ("pitLaneTimerActive", ctypes.c_uint8),
-        ("pitLaneTimeInLaneInMS", ctypes.c_uint16),
-        ("pitStopTimerInMS", ctypes.c_uint16),
-        ("pitStopShouldServePen", ctypes.c_uint8),
-        ("speedTrapFastestSpeed", ctypes.c_float),
-        ("speedTrapFastestLap", ctypes.c_uint8)
+        ("lastLapTimeInMS", ctypes.c_uint32),                 # 4 bytes
+        ("currentLapTimeInMS", ctypes.c_uint32),              # 4 bytes
+        ("sector1TimeMSPart", ctypes.c_uint16),               # 2 bytes
+        ("sector1TimeMinutesPart", ctypes.c_uint8),           # 1 byte
+        ("sector2TimeMSPart", ctypes.c_uint16),               # 2 bytes
+        ("sector2TimeMinutesPart", ctypes.c_uint8),           # 1 byte
+        ("deltaToCarInFrontMSPart", ctypes.c_uint16),         # 2 bytes
+        ("deltaToCarInFrontMinutesPart", ctypes.c_uint8),     # 1 byte
+        ("deltaToRaceLeaderMSPart", ctypes.c_uint16),         # 2 bytes
+        ("deltaToRaceLeaderMinutesPart", ctypes.c_uint8),     # 1 byte
+        ("lapDistance", ctypes.c_float),                      # 4 bytes
+        ("totalDistance", ctypes.c_float),                    # 4 bytes
+        ("safetyCarDelta", ctypes.c_float),                   # 4 bytes
+        ("carPosition", ctypes.c_uint8),                      # 1 byte
+        ("currentLapNum", ctypes.c_uint8),                    # 1 byte
+        ("pitStatus", ctypes.c_uint8),                        # 1 byte
+        ("numPitStops", ctypes.c_uint8),                      # 1 byte
+        ("sector", ctypes.c_uint8),                           # 1 byte
+        ("currentLapInvalid", ctypes.c_uint8),                # 1 byte
+        ("penalties", ctypes.c_uint8),                        # 1 byte
+        ("totalWarnings", ctypes.c_uint8),                    # 1 byte
+        ("cornerCuttingWarnings", ctypes.c_uint8),            # 1 byte
+        ("numUnservedDriveThroughPens", ctypes.c_uint8),      # 1 byte
+        ("numUnservedStopGoPens", ctypes.c_uint8),            # 1 byte
+        ("gridPosition", ctypes.c_uint8),                     # 1 byte
+        ("driverStatus", ctypes.c_uint8),                     # 1 byte
+        ("resultStatus", ctypes.c_uint8),                     # 1 byte
+        ("pitLaneTimerActive", ctypes.c_uint8),               # 1 byte
+        ("pitLaneTimeInLaneInMS", ctypes.c_uint16),           # 2 bytes
+        ("pitStopTimerInMS", ctypes.c_uint16),                # 2 bytes
+        ("pitStopShouldServePen", ctypes.c_uint8),            # 1 byte
+        ("speedTrapFastestSpeed", ctypes.c_float),            # 4 bytes
+        ("speedTrapFastestLap", ctypes.c_uint8)               # 1 byte
     ]
+
+print("LapData size:", ctypes.sizeof(LapData))  # Debe mostrar 62
+
 
 class PacketLapData(ctypes.LittleEndianStructure):
     _pack_ = 1
