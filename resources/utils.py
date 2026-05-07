@@ -49,6 +49,8 @@ def get_packet_handlers(instance):
         10: instance.parse_car_damage,
         11: instance.parse_session_history,
         12: instance.parse_tyre_sets,
-        14: instance.parse_time_trial
+        13: instance.parse_motion_ex,
+        14: instance.parse_time_trial,
+        15: instance.parse_lap_positions,
     }
 

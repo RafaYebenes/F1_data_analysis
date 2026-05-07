@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Real-time F1 23/24 telemetry pipeline: the game broadcasts UDP packets, Python parses them into structured dicts, publishes to Redis pub/sub, and a Bun/TypeScript WebSocket server fans them out to browser clients.
+Real-time F1 25 telemetry pipeline (compatible with F1 24): the game broadcasts UDP packets, Python parses them into structured dicts, publishes to Redis pub/sub, and a Bun/TypeScript WebSocket server fans them out to browser clients.
 
 ## Running the System
 
@@ -85,7 +85,9 @@ f1_reader.py  (F1Reader class)
 | 10 | Car Damage | car_damage |
 | 11 | Session History | — |
 | 12 | Tyre Sets | — |
+| 13 | Motion Ex (player car only) | — |
 | 14 | Time Trial | — |
+| 15 | Lap Positions (F1 25 only) | — |
 
 ### Player index
 
