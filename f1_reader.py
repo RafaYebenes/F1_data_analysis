@@ -608,7 +608,8 @@ class F1Reader:
         packet = PacketLapPositionsData.from_buffer_copy(data)
         positions = []
         for lap_idx in range(packet.numLaps):
-            positions.append(list(packet.positionForVehicleIdx[packet.lapStart + lap_idx]))
+            # lapStart is the race-lap number of index 0, not an array offset
+            positions.append(list(packet.positionForVehicleIdx[lap_idx]))
         return {
             'lapPositions': {
                 'numLaps': packet.numLaps,

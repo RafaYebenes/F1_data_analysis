@@ -1,4 +1,17 @@
-from pyspark.sql.types import *
+"""
+PySpark schema definitions for F1 25 UDP packets.
+Used for batch analytics pipelines; not part of the live telemetry flow.
+Array fields use order: RL, RR, FL, FR (wheels) unless otherwise noted.
+"""
+
+from pyspark.sql.types import (
+    ArrayType, BinaryType, BooleanType, DoubleType, FloatType,
+    IntegerType, LongType, ShortType, StringType, StructField, StructType,
+)
+
+# ---------------------------------------------------------------------------
+# Shared
+# ---------------------------------------------------------------------------
 
 PacketHeader_schema = StructType([
     StructField("packetFormat", IntegerType()),
@@ -14,6 +27,10 @@ PacketHeader_schema = StructType([
     StructField("playerCarIndex", IntegerType()),
     StructField("secondaryPlayerCarIndex", IntegerType()),
 ])
+
+# ---------------------------------------------------------------------------
+# ID 0 — Motion
+# ---------------------------------------------------------------------------
 
 CarMotionData_schema = StructType([
     StructField("worldPositionX", FloatType()),
@@ -35,6 +52,14 @@ CarMotionData_schema = StructType([
     StructField("pitch", FloatType()),
     StructField("roll", FloatType()),
 ])
+
+PacketMotionData_schema = StructType([
+    StructField("motion", ArrayType(CarMotionData_schema)),
+])
+
+# ---------------------------------------------------------------------------
+# ID 1 — Session
+# ---------------------------------------------------------------------------
 
 WeatherForecastSample_schema = StructType([
     StructField("sessionType", IntegerType()),
@@ -67,11 +92,73 @@ PacketSessionData_schema = StructType([
     StructField("safetyCarStatus", IntegerType()),
     StructField("networkGame", IntegerType()),
     StructField("numWeatherForecastSamples", IntegerType()),
+    StructField("weatherForecastSamples", ArrayType(WeatherForecastSample_schema)),
+    # F1 24/25 additions
+    StructField("forecastAccuracy", IntegerType()),
+    StructField("aiDifficulty", IntegerType()),
+    StructField("seasonLinkIdentifier", LongType()),
+    StructField("weekendLinkIdentifier", LongType()),
+    StructField("sessionLinkIdentifier", LongType()),
+    StructField("pitStopWindowIdealLap", IntegerType()),
+    StructField("pitStopWindowLatestLap", IntegerType()),
+    StructField("pitStopRejoinPosition", IntegerType()),
+    StructField("steeringAssist", IntegerType()),
+    StructField("brakingAssist", IntegerType()),
+    StructField("gearboxAssist", IntegerType()),
+    StructField("pitAssist", IntegerType()),
+    StructField("pitReleaseAssist", IntegerType()),
+    StructField("ersAssist", IntegerType()),
+    StructField("drsAssist", IntegerType()),
+    StructField("dynamicRacingLine", IntegerType()),
+    StructField("dynamicRacingLineType", IntegerType()),
+    StructField("gameMode", IntegerType()),
+    StructField("ruleSet", IntegerType()),
+    StructField("timeOfDay", LongType()),
+    StructField("sessionLength", IntegerType()),
+    StructField("speedUnitsLeadPlayer", IntegerType()),
+    StructField("temperatureUnitsLeadPlayer", IntegerType()),
+    StructField("speedUnitsSecondaryPlayer", IntegerType()),
+    StructField("temperatureUnitsSecondaryPlayer", IntegerType()),
+    StructField("numSafetyCarPeriods", IntegerType()),
+    StructField("numVirtualSafetyCarPeriods", IntegerType()),
+    StructField("numRedFlagPeriods", IntegerType()),
+    StructField("equalCarPerformance", IntegerType()),
+    StructField("recoveryMode", IntegerType()),
+    StructField("flashbackLimit", IntegerType()),
+    StructField("surfaceType", IntegerType()),
+    StructField("lowFuelMode", IntegerType()),
+    StructField("raceStarts", IntegerType()),
+    StructField("tyreTemperature", IntegerType()),
+    StructField("pitLaneTyreSim", IntegerType()),
+    StructField("carDamageSetting", IntegerType()),
+    StructField("carDamageRate", IntegerType()),
+    StructField("collisions", IntegerType()),
+    StructField("collisionsOffForFirstLapOnly", IntegerType()),
+    StructField("mpUnsafePitRelease", IntegerType()),
+    StructField("mpOffForGriefing", IntegerType()),
+    StructField("cornerCuttingStringency", IntegerType()),
+    StructField("parcFermeRules", IntegerType()),
+    StructField("pitStopExperience", IntegerType()),
+    StructField("safetyCar", IntegerType()),
+    StructField("safetyCarExperience", IntegerType()),
+    StructField("formationLap", IntegerType()),
+    StructField("formationLapExperience", IntegerType()),
+    StructField("redFlags", IntegerType()),
+    StructField("affectsLicenceLevelSolo", IntegerType()),
+    StructField("affectsLicenceLevelMP", IntegerType()),
+    StructField("numSessionsInWeekend", IntegerType()),
+    StructField("weekendStructure", ArrayType(IntegerType())),
+    StructField("sector2LapDistanceStart", FloatType()),
+    StructField("sector3LapDistanceStart", FloatType()),
 ])
 
+# ---------------------------------------------------------------------------
+# ID 2 — Lap Data
+# ---------------------------------------------------------------------------
+
 LapData_schema = StructType([
-    StructField("lastLapTimeInMS", IntegerType()),
-    StructField("currentLapTimeInMS", IntegerType()),
+    StructField("lastLapTimeInMS", LongType()),
+    StructField("currentLapTimeInMS", LongType()),
     StructField("sector1TimeMSPart", IntegerType()),
     StructField("sector1TimeMinutesPart", IntegerType()),
     StructField("sector2TimeMSPart", IntegerType()),
@@ -106,9 +193,113 @@ LapData_schema = StructType([
 ])
 
 PacketLapData_schema = StructType([
-    StructField("timeTrialPBCarIdx", IntegerType()),
-    StructField("timeTrialRivalCarIdx", IntegerType()),
+    StructField("lapData", ArrayType(LapData_schema)),
+    StructField("pbCarIdx", IntegerType()),
+    StructField("rivalCarIdx", IntegerType()),
 ])
+
+# ---------------------------------------------------------------------------
+# ID 3 — Event
+# ---------------------------------------------------------------------------
+
+PacketEventData_schema = StructType([
+    StructField("eventStringCode", StringType()),
+    StructField("vehicleIdx", IntegerType()),
+    StructField("lapTime", FloatType()),
+    StructField("speed", FloatType()),
+    StructField("reason", IntegerType()),
+    StructField("penaltyType", IntegerType()),
+    StructField("infringementType", IntegerType()),
+    StructField("otherVehicleIdx", IntegerType()),
+    StructField("time", IntegerType()),
+    StructField("lapNum", IntegerType()),
+    StructField("placesGained", IntegerType()),
+    StructField("isOverallFastestInSession", IntegerType()),
+    StructField("isDriverFastestInSession", IntegerType()),
+    StructField("fastestVehicleIdxInSession", IntegerType()),
+    StructField("fastestSpeedInSession", FloatType()),
+    StructField("numLights", IntegerType()),
+    StructField("stopTime", FloatType()),
+    StructField("flashbackFrameIdentifier", LongType()),
+    StructField("flashbackSessionTime", FloatType()),
+    StructField("buttonStatus", LongType()),
+    StructField("overtakingVehicleIdx", IntegerType()),
+    StructField("beingOvertakenVehicleIdx", IntegerType()),
+    StructField("safetyCarType", IntegerType()),
+    StructField("eventType", IntegerType()),
+    StructField("vehicle1Idx", IntegerType()),
+    StructField("vehicle2Idx", IntegerType()),
+])
+
+# ---------------------------------------------------------------------------
+# ID 4 — Participants
+# ---------------------------------------------------------------------------
+
+LiveryColour_schema = StructType([
+    StructField("r", IntegerType()),
+    StructField("g", IntegerType()),
+    StructField("b", IntegerType()),
+])
+
+ParticipantData_schema = StructType([
+    StructField("aiControlled", IntegerType()),
+    StructField("driverId", IntegerType()),
+    StructField("networkId", IntegerType()),
+    StructField("teamId", IntegerType()),
+    StructField("myTeam", IntegerType()),
+    StructField("raceNumber", IntegerType()),
+    StructField("nationality", IntegerType()),
+    StructField("name", StringType()),
+    StructField("yourTelemetry", IntegerType()),
+    StructField("showOnlineNames", IntegerType()),
+    StructField("techLevel", IntegerType()),
+    StructField("platform", IntegerType()),
+    StructField("liveryColours", ArrayType(LiveryColour_schema)),
+])
+
+PacketParticipantsData_schema = StructType([
+    StructField("numActiveCars", IntegerType()),
+    StructField("participants", ArrayType(ParticipantData_schema)),
+])
+
+# ---------------------------------------------------------------------------
+# ID 5 — Car Setups
+# ---------------------------------------------------------------------------
+
+CarSetupData_schema = StructType([
+    StructField("frontWing", IntegerType()),
+    StructField("rearWing", IntegerType()),
+    StructField("onThrottle", IntegerType()),
+    StructField("offThrottle", IntegerType()),
+    StructField("frontCamber", FloatType()),
+    StructField("rearCamber", FloatType()),
+    StructField("frontToe", FloatType()),
+    StructField("rearToe", FloatType()),
+    StructField("frontSuspension", IntegerType()),
+    StructField("rearSuspension", IntegerType()),
+    StructField("frontAntiRollBar", IntegerType()),
+    StructField("rearAntiRollBar", IntegerType()),
+    StructField("frontSuspensionHeight", IntegerType()),
+    StructField("rearSuspensionHeight", IntegerType()),
+    StructField("brakePressure", IntegerType()),
+    StructField("brakeBias", IntegerType()),
+    StructField("engineBraking", IntegerType()),
+    StructField("rearLeftTyrePressure", FloatType()),
+    StructField("rearRightTyrePressure", FloatType()),
+    StructField("frontLeftTyrePressure", FloatType()),
+    StructField("frontRightTyrePressure", FloatType()),
+    StructField("ballast", IntegerType()),
+    StructField("fuelLoad", FloatType()),
+])
+
+PacketCarSetupData_schema = StructType([
+    StructField("carSetups", ArrayType(CarSetupData_schema)),
+    StructField("nextFrontWingValue", FloatType()),
+])
+
+# ---------------------------------------------------------------------------
+# ID 6 — Car Telemetry
+# ---------------------------------------------------------------------------
 
 CarTelemetryData_schema = StructType([
     StructField("speed", IntegerType()),
@@ -130,70 +321,15 @@ CarTelemetryData_schema = StructType([
 ])
 
 PacketCarTelemetryData_schema = StructType([
+    StructField("carTelemetry", ArrayType(CarTelemetryData_schema)),
     StructField("mfdPanelIndex", IntegerType()),
     StructField("mfdPanelIndexSecondaryPlayer", IntegerType()),
     StructField("suggestedGear", IntegerType()),
 ])
 
-FastestLap_schema = StructType([
-    StructField("vehicleIdx", IntegerType()),
-    StructField("lapTime", FloatType()),
-])
-
-Penalty_schema = StructType([
-    StructField("penaltyType", IntegerType()),
-    StructField("infringementType", IntegerType()),
-    StructField("vehicleIdx", IntegerType()),
-    StructField("otherVehicleIdx", IntegerType()),
-    StructField("time", IntegerType()),
-    StructField("lapNum", IntegerType()),
-    StructField("placesGained", IntegerType()),
-])
-
-PacketEventData_schema = StructType([
-    StructField("eventStringCode", ArrayType(StringType(), containsNull=False)),
-])
-
-ParticipantData_schema = StructType([
-    StructField("aiControlled", IntegerType()),
-    StructField("driverId", IntegerType()),
-    StructField("networkId", IntegerType()),
-    StructField("teamId", IntegerType()),
-    StructField("myTeam", IntegerType()),
-    StructField("raceNumber", IntegerType()),
-    StructField("nationality", IntegerType()),
-    StructField("name", ArrayType(StringType(), containsNull=False)),
-    StructField("yourTelemetry", IntegerType()),
-])
-
-PacketParticipantsData_schema = StructType([
-    StructField("numActiveCars", IntegerType()),
-])
-
-CarSetupData_schema = StructType([
-    StructField("frontWing", IntegerType()),
-    StructField("rearWing", IntegerType()),
-    StructField("onThrottle", IntegerType()),
-    StructField("offThrottle", IntegerType()),
-    StructField("frontCamber", FloatType()),
-    StructField("rearCamber", FloatType()),
-    StructField("frontToe", FloatType()),
-    StructField("rearToe", FloatType()),
-    StructField("frontSuspension", IntegerType()),
-    StructField("rearSuspension", IntegerType()),
-    StructField("frontAntiRollBar", IntegerType()),
-    StructField("rearAntiRollBar", IntegerType()),
-    StructField("frontSuspensionHeight", IntegerType()),
-    StructField("rearSuspensionHeight", IntegerType()),
-    StructField("brakePressure", IntegerType()),
-    StructField("brakeBias", IntegerType()),
-    StructField("rearLeftTyrePressure", FloatType()),
-    StructField("rearRightTyrePressure", FloatType()),
-    StructField("frontLeftTyrePressure", FloatType()),
-    StructField("frontRightTyrePressure", FloatType()),
-    StructField("ballast", IntegerType()),
-    StructField("fuelLoad", FloatType()),
-])
+# ---------------------------------------------------------------------------
+# ID 7 — Car Status
+# ---------------------------------------------------------------------------
 
 CarStatusData_schema = StructType([
     StructField("tractionControl", IntegerType()),
@@ -223,6 +359,14 @@ CarStatusData_schema = StructType([
     StructField("networkPaused", IntegerType()),
 ])
 
+PacketCarStatusData_schema = StructType([
+    StructField("carStatus", ArrayType(CarStatusData_schema)),
+])
+
+# ---------------------------------------------------------------------------
+# ID 8 — Final Classification
+# ---------------------------------------------------------------------------
+
 FinalClassificationData_schema = StructType([
     StructField("position", IntegerType()),
     StructField("numLaps", IntegerType()),
@@ -230,7 +374,8 @@ FinalClassificationData_schema = StructType([
     StructField("points", IntegerType()),
     StructField("numPitStops", IntegerType()),
     StructField("resultStatus", IntegerType()),
-    StructField("bestLapTimeInMS", IntegerType()),
+    StructField("resultReason", IntegerType()),
+    StructField("bestLapTimeInMS", LongType()),
     StructField("totalRaceTime", DoubleType()),
     StructField("penaltiesTime", IntegerType()),
     StructField("numPenalties", IntegerType()),
@@ -242,26 +387,40 @@ FinalClassificationData_schema = StructType([
 
 PacketFinalClassificationData_schema = StructType([
     StructField("numCars", IntegerType()),
+    StructField("finalClassification", ArrayType(FinalClassificationData_schema)),
 ])
+
+# ---------------------------------------------------------------------------
+# ID 9 — Lobby Info
+# ---------------------------------------------------------------------------
 
 LobbyInfoData_schema = StructType([
     StructField("aiControlled", IntegerType()),
     StructField("teamId", IntegerType()),
     StructField("nationality", IntegerType()),
     StructField("platform", IntegerType()),
-    StructField("name", ArrayType(StringType(), containsNull=False)),
+    StructField("name", StringType()),
     StructField("carNumber", IntegerType()),
+    StructField("yourTelemetry", IntegerType()),
+    StructField("showOnlineNames", IntegerType()),
+    StructField("techLevel", IntegerType()),
     StructField("readyStatus", IntegerType()),
 ])
 
 PacketLobbyInfoData_schema = StructType([
     StructField("numPlayers", IntegerType()),
+    StructField("lobbyPlayers", ArrayType(LobbyInfoData_schema)),
 ])
 
+# ---------------------------------------------------------------------------
+# ID 10 — Car Damage
+# ---------------------------------------------------------------------------
+
 CarDamageData_schema = StructType([
-    StructField("tyresWear", ArrayType(IntegerType(), containsNull=False)),
+    StructField("tyresWear", ArrayType(FloatType(), containsNull=False)),    # float in F1 24/25
     StructField("tyresDamage", ArrayType(IntegerType(), containsNull=False)),
     StructField("brakesDamage", ArrayType(IntegerType(), containsNull=False)),
+    StructField("tyreBlisters", ArrayType(IntegerType(), containsNull=False)),
     StructField("frontLeftWingDamage", IntegerType()),
     StructField("frontRightWingDamage", IntegerType()),
     StructField("rearWingDamage", IntegerType()),
@@ -269,6 +428,7 @@ CarDamageData_schema = StructType([
     StructField("diffuserDamage", IntegerType()),
     StructField("sidepodDamage", IntegerType()),
     StructField("drsFault", IntegerType()),
+    StructField("ersFault", IntegerType()),
     StructField("gearBoxDamage", IntegerType()),
     StructField("engineDamage", IntegerType()),
     StructField("engineMGUHWear", IntegerType()),
@@ -277,13 +437,26 @@ CarDamageData_schema = StructType([
     StructField("engineICEWear", IntegerType()),
     StructField("engineMGUKWear", IntegerType()),
     StructField("engineTCWear", IntegerType()),
+    StructField("engineBlown", IntegerType()),
+    StructField("engineSeized", IntegerType()),
 ])
 
+PacketCarDamageData_schema = StructType([
+    StructField("carDamage", ArrayType(CarDamageData_schema)),
+])
+
+# ---------------------------------------------------------------------------
+# ID 11 — Session History
+# ---------------------------------------------------------------------------
+
 LapHistoryData_schema = StructType([
-    StructField("lapTimeInMS", IntegerType()),
-    StructField("sector1TimeInMS", IntegerType()),
-    StructField("sector2TimeInMS", IntegerType()),
-    StructField("sector3TimeInMS", IntegerType()),
+    StructField("lapTimeInMS", LongType()),
+    StructField("sector1TimeMSPart", IntegerType()),
+    StructField("sector1TimeMinutesPart", IntegerType()),
+    StructField("sector2TimeMSPart", IntegerType()),
+    StructField("sector2TimeMinutesPart", IntegerType()),
+    StructField("sector3TimeMSPart", IntegerType()),
+    StructField("sector3TimeMinutesPart", IntegerType()),
     StructField("lapValidBitFlags", IntegerType()),
 ])
 
@@ -301,7 +474,13 @@ PacketSessionHistoryData_schema = StructType([
     StructField("bestSector1LapNum", IntegerType()),
     StructField("bestSector2LapNum", IntegerType()),
     StructField("bestSector3LapNum", IntegerType()),
+    StructField("lapHistoryData", ArrayType(LapHistoryData_schema)),
+    StructField("tyreStintsHistoryData", ArrayType(TyreStintHistoryData_schema)),
 ])
+
+# ---------------------------------------------------------------------------
+# ID 12 — Tyre Sets
+# ---------------------------------------------------------------------------
 
 TyreSetData_schema = StructType([
     StructField("actualTyreCompound", IntegerType()),
@@ -311,20 +490,77 @@ TyreSetData_schema = StructType([
     StructField("recommendedSession", IntegerType()),
     StructField("lifeSpan", IntegerType()),
     StructField("usableLife", IntegerType()),
-    StructField("lapDeltaTime", FloatType()),
+    StructField("lapDeltaTime", ShortType()),    # int16 ms in F1 24/25
     StructField("fitted", IntegerType()),
 ])
 
 PacketTyreSetsData_schema = StructType([
     StructField("carIdx", IntegerType()),
+    StructField("tyreSets", ArrayType(TyreSetData_schema)),
+    StructField("fittedIdx", IntegerType()),
 ])
 
-GForceData_schema = StructType([
-    StructField("gForceLateral", FloatType()),
-    StructField("gForceLongitudinal", FloatType()),
-    StructField("gForceVertical", FloatType()),
+# ---------------------------------------------------------------------------
+# ID 13 — Motion Ex  (new in F1 24/25, player car only)
+# ---------------------------------------------------------------------------
+
+PacketMotionExData_schema = StructType([
+    StructField("suspensionPosition", ArrayType(FloatType(), containsNull=False)),
+    StructField("suspensionVelocity", ArrayType(FloatType(), containsNull=False)),
+    StructField("suspensionAcceleration", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelSpeed", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelSlipRatio", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelSlipAngle", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelLatForce", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelLongForce", ArrayType(FloatType(), containsNull=False)),
+    StructField("heightOfCOGAboveGround", FloatType()),
+    StructField("localVelocity", ArrayType(FloatType(), containsNull=False)),
+    StructField("angularVelocity", ArrayType(FloatType(), containsNull=False)),
+    StructField("angularAcceleration", ArrayType(FloatType(), containsNull=False)),
+    StructField("frontWheelsAngle", FloatType()),
+    StructField("wheelVertForce", ArrayType(FloatType(), containsNull=False)),
+    StructField("frontAeroHeight", FloatType()),
+    StructField("rearAeroHeight", FloatType()),
+    StructField("frontRollAngle", FloatType()),
+    StructField("rearRollAngle", FloatType()),
+    StructField("chassisYaw", FloatType()),
+    StructField("chassisPitch", FloatType()),
+    StructField("wheelCamber", ArrayType(FloatType(), containsNull=False)),
+    StructField("wheelCamberGain", ArrayType(FloatType(), containsNull=False)),
+])
+
+# ---------------------------------------------------------------------------
+# ID 14 — Time Trial
+# ---------------------------------------------------------------------------
+
+TimeTrialDataSet_schema = StructType([
+    StructField("carIdx", IntegerType()),
+    StructField("teamId", IntegerType()),
+    StructField("lapTimeInMS", LongType()),
+    StructField("sector1TimeInMS", LongType()),
+    StructField("sector2TimeInMS", LongType()),
+    StructField("sector3TimeInMS", LongType()),
+    StructField("tractionControl", IntegerType()),
+    StructField("gearboxAssist", IntegerType()),
+    StructField("antiLockBrakes", IntegerType()),
+    StructField("equalCarPerformance", IntegerType()),
+    StructField("customSetup", IntegerType()),
+    StructField("valid", IntegerType()),
 ])
 
 PacketTimeTrialData_schema = StructType([
-    StructField("deltaTimeInMS", IntegerType()),
+    StructField("playerSessionBest", TimeTrialDataSet_schema),
+    StructField("personalBest", TimeTrialDataSet_schema),
+    StructField("rival", TimeTrialDataSet_schema),
+])
+
+# ---------------------------------------------------------------------------
+# ID 15 — Lap Positions  (new in F1 25)
+# ---------------------------------------------------------------------------
+
+PacketLapPositionsData_schema = StructType([
+    StructField("numLaps", IntegerType()),
+    StructField("lapStart", IntegerType()),
+    # positions[lap_idx] → list of 22 car positions (0 = no record)
+    StructField("positions", ArrayType(ArrayType(IntegerType(), containsNull=False))),
 ])
