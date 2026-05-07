@@ -1,0 +1,10 @@
+# Core — required to run f1_reader.py
+redis>=4.5.0
+
+# Optional — required only for the deprecated Kafka pipeline
+# (driver_scanner.py, master_pipeline.py)
+kafka-python>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Optional — required only for PySpark batch analytics (interfaces/structs.py)
+pyspark>=3.4.0
